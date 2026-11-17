@@ -10,12 +10,9 @@ holds the complete tagged Git tree **plus** the files marked `location: eotdl` i
 215 MB random forest and the IBGE biome archive. EOTDL ingests a folder of files;
 no ZIP wrapper is needed.
 
-## GitHub and EOTDL version mapping
+## Published version
 
-GitHub release `v1.0.0` identifies the code. The EOTDL version number is assigned
-on upload and **is not derived from the Git tag**. After upload, record it in
-`provenance/releases/v1.0.0.json` and the README, as was done for
-`iberian-pines-ifn-validation`.
+GitHub release `v1.0.0` (commit `139f0acf7c8a58f361d061fdfe91e41404705077`) corresponds to EOTDL dataset version **1** (ID `6afc5161062699a6ad0c5b84`). The EOTDL catalog checksum of every one of the 2746 payload files, and the uploaded `release-manifest.json` itself, were checked against the snapshot built from that commit. See `provenance/releases/v1.0.0.json`. Changes on `main` after this tag are not part of the upload; a new upload creates a new EOTDL version.
 
 ## Build the snapshot
 

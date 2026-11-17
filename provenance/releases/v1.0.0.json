@@ -1,0 +1,13 @@
+{
+  "dataset_name": "brazil-forest-to-agriculture-benchmark",
+  "dataset_id": "6afc5161062699a6ad0c5b84",
+  "eotdl_version": 1,
+  "github_commit": "139f0acf7c8a58f361d061fdfe91e41404705077",
+  "github_tag": "v1.0.0",
+  "manifest_sha256": "7e96430f8fbdcbb3dabb9ef6339d0e9250657fcef2c36f17184f756a223f9cc5",
+  "payload_files": 2746,
+  "github_release_url": "https://github.com/alalbiol/brazil-forest-to-agriculture-benchmark/releases/tag/v1.0.0",
+  "eotdl_url": "https://www.eotdl.com/datasets/brazil-forest-to-agriculture-benchmark",
+  "verified_date": "2026-11-17",
+  "verification": "EOTDL catalog SHA-1 of every uploaded file matched the snapshot built from github_commit; the uploaded release-manifest.json is byte-identical"
+}

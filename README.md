@@ -17,7 +17,7 @@ This repository accompanies the manuscript *Temporal Evidence in Forest-to-Agric
 
 **Publication status:** the manuscript is under revision. It will be linked here, or its arXiv version, after acceptance.
 
-**Released asset:** [GitHub v1.0.0](https://github.com/alalbiol/brazil-forest-to-agriculture-benchmark/releases/tag/v1.0.0) is distributed as the EOTDL dataset [`brazil-forest-to-agriculture-benchmark`](https://www.eotdl.com/datasets/brazil-forest-to-agriculture-benchmark). The EOTDL version number is recorded in `provenance/releases/` once the upload has been verified.
+**Released asset:** [GitHub v1.0.0](https://github.com/alalbiol/brazil-forest-to-agriculture-benchmark/releases/tag/v1.0.0) corresponds to **[EOTDL dataset version 1](https://www.eotdl.com/datasets/brazil-forest-to-agriculture-benchmark)**. The exact source commit is `139f0acf7c8a58f361d061fdfe91e41404705077`. All 2746 uploaded payload files were verified against this commit. See [the release record](provenance/releases/v1.0.0.json) for the dataset ID and manifest checksum.
 
 **Applying the model to new imagery:** the backbone checkpoint, inference code and Earth Engine downloader are a separate asset: [forest-to-agriculture-inference](https://github.com/alalbiol/forest-to-agriculture-inference).
 
