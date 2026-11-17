@@ -1,0 +1,11 @@
+# Python 3.11. Tested versions; see requirements-lock.txt for the full pinned set.
+numpy==2.4.6
+scipy==1.17.1
+scikit-learn==1.8.0
+torch==2.10.0
+matplotlib==3.10.8
+# Biome-boundary check only:
+geopandas==1.1.3
+pyogrio==0.12.1
+shapely==2.1.2
+pyproj==3.7.2

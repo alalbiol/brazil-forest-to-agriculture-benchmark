@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+*.part
+rerun/
+dist/
+downloads/
+
+# Distributed only in the EOTDL snapshot (see manifest.json, location "eotdl").
+/cache/
+/reviewer_revision/results/bitemporal_spectral_forest.pkl
+/sources/Biomas_250mil.zip

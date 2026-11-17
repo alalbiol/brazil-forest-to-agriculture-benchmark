@@ -1,0 +1,18 @@
+{
+  "purpose": "Verification rerun of the same fixed protocol; no model selection or published-artifact replacement",
+  "status": "passed",
+  "models": {
+    "tokens": {
+      "epoch": 13,
+      "validation_loss": 0.5992509021180074,
+      "maximum_tensor_difference": 0.0,
+      "normalization_identical": true
+    },
+    "spectral": {
+      "epoch": 100,
+      "validation_loss": 0.776914638519704,
+      "maximum_tensor_difference": 0.0,
+      "normalization_identical": true
+    }
+  }
+}

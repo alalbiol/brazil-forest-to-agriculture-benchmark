@@ -1,0 +1,24 @@
+{
+  "definition": "TerraClass 2020 primary forest to 2024 crops/pasture >=0.5ha, coincident with a 2022-2023 MapBiomas alert >=0.5ha",
+  "min_event_ha": 0.5,
+  "near_boundary_lower_ha": 0.2,
+  "grid": [
+    132,
+    132
+  ],
+  "counts": {
+    "brazil_matogrosso": {
+      "conversion": 40,
+      "out_of_scope": 61,
+      "uncertain": 18,
+      "no_conversion": 31
+    },
+    "brazil_para": {
+      "conversion": 35,
+      "no_conversion": 43,
+      "uncertain": 64,
+      "out_of_scope": 8
+    }
+  },
+  "status": "External map-and-alert benchmark, not independent field truth or EUDR verdict"
+}

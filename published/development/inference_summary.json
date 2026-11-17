@@ -1,0 +1,10 @@
+{
+  "reference_sha256": "df8e149aed70806f11fe485abf9b03f192813fc72b7fc3f446d0e79ab76f43a0",
+  "terrafm_checkpoint_sha256": "5a7c585e66752364360d54f21c6c4197b87cc85eec670c11650012d86c8d7bdc",
+  "spatial_head_sha256": "042cd2389526a4ee5c4afd0739fcd071b236efe066b91379874d936b7ab01b31",
+  "operating_point_sha256": "8ac21572a6925e87e658175ce32a9504c23f84682767299f3e0cf5b5f756b7e2",
+  "head_token_top9_threshold": 0.9994885921478271,
+  "requested_windows": 148,
+  "predicted_windows": 148,
+  "failures": []
+}

@@ -1,0 +1,84 @@
+{
+  "status": "exploratory; specified after prior extension results were inspected",
+  "plan_sha256": "adccb5c1aff7c36490fd1f97a1747e58061801e338cec3e6e42985ba4993b352",
+  "operating_point": {
+    "threshold": 0.6126452088356018,
+    "validation_recall": 0.6666666666666666,
+    "validation_fpr": 0.09375,
+    "positive_n": 72,
+    "negative_n": 32
+  },
+  "results": {
+    "loss_endpoints": {
+      "n": 113,
+      "auroc": 0.9133825944170771,
+      "tp": 60,
+      "fn": 24,
+      "fp": 2,
+      "tn": 27,
+      "recall": 0.7142857142857143,
+      "fpr": 0.06896551724137931,
+      "recall_ci95_wilson": [
+        0.6099775866784931,
+        0.7998510138934454
+      ],
+      "fpr_ci95_wilson": [
+        0.019120864097994433,
+        0.21964947595851925
+      ]
+    },
+    "para_loss_endpoints": {
+      "n": 74,
+      "auroc": 0.8742236024844721,
+      "tp": 28,
+      "fn": 18,
+      "fp": 2,
+      "tn": 26,
+      "recall": 0.6086956521739131,
+      "fpr": 0.07142857142857142,
+      "recall_ci95_wilson": [
+        0.4645658371764493,
+        0.7360697764475116
+      ],
+      "fpr_ci95_wilson": [
+        0.019811647447770794,
+        0.2264573842591786
+      ]
+    },
+    "stable_agriculture": {
+      "n": 100,
+      "auroc": null,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 100,
+      "recall": null,
+      "fpr": 0.0,
+      "recall_ci95_wilson": [
+        null,
+        null
+      ],
+      "fpr_ci95_wilson": [
+        0.0,
+        0.03699480747600191
+      ]
+    }
+  },
+  "bootstrap": {
+    "ci95": [
+      0.8487331296154825,
+      0.9616560457516341
+    ],
+    "terrafm_minus_spectral_ci95": [
+      -0.0016494160624342643,
+      0.11385328618250823
+    ],
+    "valid_draws": 4000
+  },
+  "postclassification_localization": {
+    "n": 84,
+    "median": 0.9791666865348816,
+    "q25": 0.8211805671453476,
+    "q75": 1.0
+  }
+}

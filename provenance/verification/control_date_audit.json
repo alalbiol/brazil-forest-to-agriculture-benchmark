@@ -1,0 +1,99 @@
+{
+  "validation_2020": {
+    "classes": [
+      "primary_forest",
+      "secondary_forest",
+      "agriculture",
+      "mining"
+    ],
+    "matrix_rows_reference_columns_prediction": [
+      [
+        21438,
+        1527,
+        523,
+        139
+      ],
+      [
+        558,
+        175,
+        47,
+        18
+      ],
+      [
+        172,
+        52,
+        365,
+        5
+      ],
+      [
+        6,
+        7,
+        3,
+        134
+      ]
+    ],
+    "eligible_class_counts": [
+      23627,
+      798,
+      594,
+      150
+    ],
+    "eligible_total": 25169,
+    "agreement": 0.878541062418054
+  },
+  "established_agriculture_2020": {
+    "classes": [
+      "primary_forest",
+      "secondary_forest",
+      "agriculture",
+      "mining"
+    ],
+    "matrix_rows_reference_columns_prediction": [
+      [
+        9,
+        1,
+        19,
+        0
+      ],
+      [
+        44,
+        0,
+        32,
+        0
+      ],
+      [
+        193,
+        8,
+        19008,
+        117
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "eligible_class_counts": [
+      29,
+      76,
+      19326,
+      0
+    ],
+    "eligible_total": 19431,
+    "agreement": 0.9786938397406206
+  },
+  "control_mapped_agriculture_forest_probability": {
+    "n": 19326,
+    "median": 0.00012571364641189575,
+    "p90": 0.009899729862809181,
+    "p99": 0.39029598236083984,
+    "fraction_at_least_0_5": 0.007606333436820863
+  },
+  "control_chip_top9_2020_forest_probability": {
+    "n": 100,
+    "median": 0.041520774364471436,
+    "p90": 0.6451495587825782,
+    "max": 0.9721518754959106
+  }
+}

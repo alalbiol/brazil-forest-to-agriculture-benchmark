@@ -1,0 +1,16 @@
+{
+  "counts_by_region": {
+    "brazil_matogrosso": {
+      "agri_loss": 80,
+      "uncertain": 20
+    },
+    "brazil_para": {
+      "agri_loss": 79,
+      "uncertain": 21
+    }
+  },
+  "reference_sha256": "f1e1e1ddaa5f5e1698db70968f69f0ec572688c855df2b9926fb55f959987f34",
+  "window_metres": 440,
+  "definition": ">=0.5ha alert-supported primary forest to crop/pasture, <0.2ha nonagricultural mapped transition within 440m chip",
+  "status": "External EO-product challenge reference, not field truth or EUDR verdict"
+}

@@ -1,0 +1,593 @@
+{
+  "class_by_state_and_split": {
+    "train": {
+      "brazil_matogrosso": {
+        "agriculture": 120,
+        "mining": 5,
+        "secondary_forest": 4,
+        "stable_forest": 47
+      },
+      "brazil_para": {
+        "agriculture": 121,
+        "mining": 57,
+        "secondary_forest": 37,
+        "stable_forest": 57
+      }
+    },
+    "validation": {
+      "brazil_matogrosso": {
+        "agriculture": 32,
+        "secondary_forest": 3,
+        "stable_forest": 14
+      },
+      "brazil_para": {
+        "agriculture": 40,
+        "mining": 18,
+        "secondary_forest": 11,
+        "stable_forest": 18
+      }
+    },
+    "test": {
+      "brazil_matogrosso": {
+        "agriculture": 38,
+        "secondary_forest": 1,
+        "stable_forest": 17
+      },
+      "brazil_para": {
+        "agriculture": 46,
+        "mining": 19,
+        "secondary_forest": 9,
+        "stable_forest": 18
+      }
+    }
+  },
+  "nearest_training_distance": {
+    "minimum_km": 3.4361965062529456,
+    "median_km": 23.162026033423956,
+    "maximum_km": 148.85718819624202,
+    "bins": [
+      {
+        "low_km": 0,
+        "high_km": 25,
+        "n": 67,
+        "positive_n": 43,
+        "negative_n": 24,
+        "methods": {
+          "joint_original": 0.8798449612403101,
+          "endpoint_terrafm": 0.9709302325581395,
+          "postclassification": 0.9670542635658914,
+          "bitemporal_terrafm": 0.9738372093023256,
+          "spectral_linear_endpoint": 0.8711240310077519,
+          "spectral_linear_joint": 0.8488372093023255,
+          "spectral_forest_bitemporal": 0.9215116279069767,
+          "change_original": 0.6526162790697675,
+          "optical_index": 0.749031007751938
+        }
+      },
+      {
+        "low_km": 25,
+        "high_km": 50,
+        "n": 33,
+        "positive_n": 30,
+        "negative_n": 3,
+        "methods": {
+          "joint_original": 0.9,
+          "endpoint_terrafm": 0.9777777777777779,
+          "postclassification": 0.9777777777777779,
+          "bitemporal_terrafm": 0.9555555555555556,
+          "spectral_linear_endpoint": 0.9,
+          "spectral_linear_joint": 0.8444444444444446,
+          "spectral_forest_bitemporal": 0.9777777777777779,
+          "change_original": 0.6888888888888889,
+          "optical_index": 0.55
+        }
+      },
+      {
+        "low_km": 50,
+        "high_km": 100,
+        "n": 11,
+        "positive_n": 9,
+        "negative_n": 2,
+        "methods": {
+          "joint_original": 1.0,
+          "endpoint_terrafm": 0.8888888888888888,
+          "postclassification": 0.9444444444444444,
+          "bitemporal_terrafm": 0.8888888888888888,
+          "spectral_linear_endpoint": 1.0,
+          "spectral_linear_joint": 1.0,
+          "spectral_forest_bitemporal": 1.0,
+          "change_original": 1.0,
+          "optical_index": 1.0
+        }
+      },
+      {
+        "low_km": 100,
+        "high_km": null,
+        "n": 2,
+        "positive_n": 2,
+        "negative_n": 0,
+        "methods": {
+          "joint_original": null,
+          "endpoint_terrafm": null,
+          "postclassification": null,
+          "bitemporal_terrafm": null,
+          "spectral_linear_endpoint": null,
+          "spectral_linear_joint": null,
+          "spectral_forest_bitemporal": null,
+          "change_original": null,
+          "optical_index": null
+        }
+      }
+    ]
+  },
+  "coarse_spatial_bootstrap": [
+    {
+      "cluster_km": 50,
+      "clusters": 86,
+      "methods": {
+        "joint_original": {
+          "valid_draws": 4000,
+          "ci95": [
+            0.8282909130060293,
+            0.9536608865581556
+          ]
+        },
+        "endpoint_terrafm": {
+          "valid_draws": 4000,
+          "ci95": [
+            0.9181076341022577,
+            0.9902648513294652
+          ]
+        },
+        "postclassification": {
+          "valid_draws": 4000,
+          "ci95": [
+            0.9191847810823714,
+            0.9894420836516425
+          ]
+        },
+        "bitemporal_terrafm": {
+          "valid_draws": 4000,
+          "ci95": [
+            0.9248153567447046,
+            0.9915018258426965
+          ]
+        },
+        "spectral_linear_endpoint": {
+          "valid_draws": 4000,
+          "ci95": [
+            0.7896972356115849,
+            0.9638168749379734
+          ]
+        },
+        "spectral_linear_joint": {
+          "valid_draws": 4000,
+          "ci95": [
+            0.7901152485825846,
+            0.9352941176470587
+          ]
+        },
+        "spectral_forest_bitemporal": {
+          "valid_draws": 4000,
+          "ci95": [
+            0.8627389705882352,
+            0.9811982272709784
+          ]
+        },
+        "change_original": {
+          "valid_draws": 4000,
+          "ci95": [
+            0.5745316148545936,
+            0.8047205603385379
+          ]
+        },
+        "optical_index": {
+          "valid_draws": 4000,
+          "ci95": [
+            0.6369113068863523,
+            0.8588213500209467
+          ]
+        }
+      }
+    },
+    {
+      "cluster_km": 100,
+      "clusters": 64,
+      "methods": {
+        "joint_original": {
+          "valid_draws": 4000,
+          "ci95": [
+            0.8259253808055321,
+            0.956811305619445
+          ]
+        },
+        "endpoint_terrafm": {
+          "valid_draws": 4000,
+          "ci95": [
+            0.904346785937175,
+            0.9913895276755719
+          ]
+        },
+        "postclassification": {
+          "valid_draws": 4000,
+          "ci95": [
+            0.9082681351265488,
+            0.9906172112383071
+          ]
+        },
+        "bitemporal_terrafm": {
+          "valid_draws": 4000,
+          "ci95": [
+            0.9185818312434691,
+            0.9915662650602409
+          ]
+        },
+        "spectral_linear_endpoint": {
+          "valid_draws": 4000,
+          "ci95": [
+            0.7468994930393498,
+            0.9729888217885139
+          ]
+        },
+        "spectral_linear_joint": {
+          "valid_draws": 4000,
+          "ci95": [
+            0.774658304735132,
+            0.9447972267610748
+          ]
+        },
+        "spectral_forest_bitemporal": {
+          "valid_draws": 4000,
+          "ci95": [
+            0.8434617883297898,
+            0.9806554383116882
+          ]
+        },
+        "change_original": {
+          "valid_draws": 4000,
+          "ci95": [
+            0.5600125528541225,
+            0.8234141156462584
+          ]
+        },
+        "optical_index": {
+          "valid_draws": 4000,
+          "ci95": [
+            0.6116999213760791,
+            0.8657027116402117
+          ]
+        }
+      }
+    }
+  ],
+  "postclassification_minus_spectral_forest": {
+    "first": "postclassification",
+    "second": "spectral_forest_bitemporal",
+    "estimate": 0.029146141215106836,
+    "ci95": [
+      -0.015446894467745914,
+      0.08189981713688609
+    ],
+    "valid_draws": 4000,
+    "unit": "original 10 km block"
+  },
+  "threshold_selection_bootstrap": {
+    "joint_original": {
+      "threshold": {
+        "median": 0.25337934494018555,
+        "interval95": [
+          0.11003734171390533,
+          0.997455358505249
+        ]
+      },
+      "test_recall": {
+        "median": 0.8571428571428571,
+        "interval95": [
+          0.13095238095238096,
+          0.8809523809523809
+        ]
+      },
+      "test_loss_fpr": {
+        "median": 0.10344827586206896,
+        "interval95": [
+          0.0,
+          0.1724137931034483
+        ]
+      },
+      "stable_agriculture_fpr": {
+        "median": 0.22,
+        "interval95": [
+          0.0,
+          0.28
+        ]
+      }
+    },
+    "endpoint_terrafm": {
+      "threshold": {
+        "median": 0.786141037940979,
+        "interval95": [
+          0.3122153878211975,
+          0.9983565211296082
+        ]
+      },
+      "test_recall": {
+        "median": 0.8690476190476191,
+        "interval95": [
+          0.11904761904761904,
+          0.9523809523809523
+        ]
+      },
+      "test_loss_fpr": {
+        "median": 0.06896551724137931,
+        "interval95": [
+          0.0,
+          0.20689655172413793
+        ]
+      },
+      "stable_agriculture_fpr": {
+        "median": 0.97,
+        "interval95": [
+          0.17,
+          1.0
+        ]
+      }
+    },
+    "postclassification": {
+      "threshold": {
+        "median": 0.5619974732398987,
+        "interval95": [
+          0.29042911529541016,
+          0.9458045959472656
+        ]
+      },
+      "test_recall": {
+        "median": 0.8095238095238095,
+        "interval95": [
+          0.20238095238095238,
+          0.9047619047619048
+        ]
+      },
+      "test_loss_fpr": {
+        "median": 0.034482758620689655,
+        "interval95": [
+          0.0,
+          0.1724137931034483
+        ]
+      },
+      "stable_agriculture_fpr": {
+        "median": 0.03,
+        "interval95": [
+          0.0,
+          0.1
+        ]
+      }
+    },
+    "bitemporal_terrafm": {
+      "threshold": {
+        "median": 0.9164664569555363,
+        "interval95": [
+          0.7255474485236518,
+          0.9999943224431846
+        ]
+      },
+      "test_recall": {
+        "median": 0.9047619047619048,
+        "interval95": [
+          0.15476190476190477,
+          0.9523809523809523
+        ]
+      },
+      "test_loss_fpr": {
+        "median": 0.10344827586206896,
+        "interval95": [
+          0.0,
+          0.13793103448275862
+        ]
+      },
+      "stable_agriculture_fpr": {
+        "median": 0.92,
+        "interval95": [
+          0.13,
+          0.99
+        ]
+      }
+    },
+    "spectral_linear_endpoint": {
+      "threshold": {
+        "median": 0.9194192886352539,
+        "interval95": [
+          0.7585545778274536,
+          0.9721617102622986
+        ]
+      },
+      "test_recall": {
+        "median": 0.7261904761904762,
+        "interval95": [
+          0.47619047619047616,
+          0.8928571428571429
+        ]
+      },
+      "test_loss_fpr": {
+        "median": 0.13793103448275862,
+        "interval95": [
+          0.06896551724137931,
+          0.20689655172413793
+        ]
+      },
+      "stable_agriculture_fpr": {
+        "median": 0.97,
+        "interval95": [
+          0.89,
+          0.98
+        ]
+      }
+    },
+    "spectral_linear_joint": {
+      "threshold": {
+        "median": 0.7417272329330444,
+        "interval95": [
+          0.501828670501709,
+          0.9719921946525574
+        ]
+      },
+      "test_recall": {
+        "median": 0.8095238095238095,
+        "interval95": [
+          0.36904761904761907,
+          0.8452380952380952
+        ]
+      },
+      "test_loss_fpr": {
+        "median": 0.13793103448275862,
+        "interval95": [
+          0.0,
+          0.27586206896551724
+        ]
+      },
+      "stable_agriculture_fpr": {
+        "median": 0.11,
+        "interval95": [
+          0.01,
+          0.13
+        ]
+      }
+    },
+    "spectral_forest_bitemporal": {
+      "threshold": {
+        "median": 0.9081884359568194,
+        "interval95": [
+          0.8562925530619308,
+          0.9818463752290975
+        ]
+      },
+      "test_recall": {
+        "median": 0.8095238095238095,
+        "interval95": [
+          0.35714285714285715,
+          0.9166666666666666
+        ]
+      },
+      "test_loss_fpr": {
+        "median": 0.10344827586206896,
+        "interval95": [
+          0.034482758620689655,
+          0.1724137931034483
+        ]
+      },
+      "stable_agriculture_fpr": {
+        "median": 0.11,
+        "interval95": [
+          0.0,
+          0.41
+        ]
+      }
+    },
+    "change_original": {
+      "threshold": {
+        "median": 0.999894380569458,
+        "interval95": [
+          0.9995810389518738,
+          0.9999953508377075
+        ]
+      },
+      "test_recall": {
+        "median": 0.34523809523809523,
+        "interval95": [
+          0.07142857142857142,
+          0.42857142857142855
+        ]
+      },
+      "test_loss_fpr": {
+        "median": 0.06896551724137931,
+        "interval95": [
+          0.0,
+          0.1724137931034483
+        ]
+      },
+      "stable_agriculture_fpr": {
+        "median": 0.0,
+        "interval95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "optical_index": {
+      "threshold": {
+        "median": 0.42923553719008267,
+        "interval95": [
+          0.35640495867768596,
+          0.7856404958677686
+        ]
+      },
+      "test_recall": {
+        "median": 0.5476190476190477,
+        "interval95": [
+          0.2261904761904762,
+          0.6309523809523809
+        ]
+      },
+      "test_loss_fpr": {
+        "median": 0.13793103448275862,
+        "interval95": [
+          0.034482758620689655,
+          0.13793103448275862
+        ]
+      },
+      "stable_agriculture_fpr": {
+        "median": 0.06,
+        "interval95": [
+          0.03,
+          0.08
+        ]
+      }
+    }
+  },
+  "false_positives_by_endpoint": {
+    "joint_original": {
+      "mining": 2,
+      "secondary_forest": 1,
+      "stable_forest": 0
+    },
+    "endpoint_terrafm": {
+      "mining": 0,
+      "secondary_forest": 2,
+      "stable_forest": 1
+    },
+    "postclassification": {
+      "mining": 0,
+      "secondary_forest": 1,
+      "stable_forest": 0
+    },
+    "bitemporal_terrafm": {
+      "mining": 1,
+      "secondary_forest": 2,
+      "stable_forest": 1
+    },
+    "spectral_linear_endpoint": {
+      "mining": 1,
+      "secondary_forest": 3,
+      "stable_forest": 1
+    },
+    "spectral_linear_joint": {
+      "mining": 1,
+      "secondary_forest": 3,
+      "stable_forest": 0
+    },
+    "spectral_forest_bitemporal": {
+      "mining": 1,
+      "secondary_forest": 2,
+      "stable_forest": 0
+    },
+    "change_original": {
+      "mining": 2,
+      "secondary_forest": 0,
+      "stable_forest": 0
+    },
+    "optical_index": {
+      "mining": 3,
+      "secondary_forest": 1,
+      "stable_forest": 0
+    }
+  }
+}

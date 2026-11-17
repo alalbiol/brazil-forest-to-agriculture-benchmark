@@ -1,0 +1,459 @@
+{
+  "scope": "TerraClass/MapBiomas external map-and-alert reference; no field truth or EUDR legal accuracy claim",
+  "sample_windows": 300,
+  "reference_counts": {
+    "conversion": 75,
+    "out_of_scope": 69,
+    "uncertain": 83,
+    "no_conversion": 73
+  },
+  "uncertain_reasons": {
+    "unobserved_or_recent_2024_clearing": 39,
+    "map_transition_without_sufficient_dated_alert_or_near_boundary": 17,
+    "geodata_query_did_not_complete": 1,
+    "geodata_query_timeout": 26
+  },
+  "conversion_subclasses": {
+    "primary_to_pasture": 71,
+    "primary_to_crop": 4
+  },
+  "negative_diagnostic": {
+    "by_sampling_stratum": {
+      "alert_2022_2023": 22,
+      "background": 51
+    },
+    "mapped_primary_to_secondary_or_silviculture_at_least_0_5ha": 1,
+    "head_false_positives_by_stratum": {
+      "alert_2022_2023": 3
+    },
+    "tiles3_false_positives_by_stratum": {
+      "alert_2022_2023": 6,
+      "background": 8
+    }
+  },
+  "resolved_windows": 148,
+  "paired_windows": 148,
+  "metrics": {
+    "overall": {
+      "n": 148,
+      "reference_counts": {
+        "conversion": 75,
+        "no_conversion": 73
+      },
+      "binary": {
+        "whole_rule": {
+          "n": 148,
+          "coverage": 1.0,
+          "abstentions": 0,
+          "tp": 7,
+          "fn": 68,
+          "fp": 0,
+          "tn": 73,
+          "recall": 0.0933,
+          "recall_ci95": [
+            0.0459,
+            0.1803
+          ],
+          "false_positive_rate": 0.0,
+          "fpr_ci95": [
+            0,
+            0.05
+          ],
+          "precision": 1.0,
+          "precision_ci95": [
+            0.6457,
+            1
+          ],
+          "accuracy": 0.5405,
+          "accuracy_ci95": [
+            0.4602,
+            0.6188
+          ],
+          "balanced_accuracy": 0.5467
+        },
+        "tiles3_rule": {
+          "n": 148,
+          "coverage": 1.0,
+          "abstentions": 0,
+          "tp": 25,
+          "fn": 50,
+          "fp": 14,
+          "tn": 59,
+          "recall": 0.3333,
+          "recall_ci95": [
+            0.2371,
+            0.4458
+          ],
+          "false_positive_rate": 0.1918,
+          "fpr_ci95": [
+            0.1178,
+            0.2966
+          ],
+          "precision": 0.641,
+          "precision_ci95": [
+            0.4842,
+            0.7726
+          ],
+          "accuracy": 0.5676,
+          "accuracy_ci95": [
+            0.487,
+            0.6447
+          ],
+          "balanced_accuracy": 0.5708
+        },
+        "head_rule_10fpr": {
+          "n": 148,
+          "coverage": 1.0,
+          "abstentions": 0,
+          "tp": 46,
+          "fn": 29,
+          "fp": 3,
+          "tn": 70,
+          "recall": 0.6133,
+          "recall_ci95": [
+            0.5002,
+            0.7154
+          ],
+          "false_positive_rate": 0.0411,
+          "fpr_ci95": [
+            0.0141,
+            0.114
+          ],
+          "precision": 0.9388,
+          "precision_ci95": [
+            0.8348,
+            0.979
+          ],
+          "accuracy": 0.7838,
+          "accuracy_ci95": [
+            0.7107,
+            0.8425
+          ],
+          "balanced_accuracy": 0.7861
+        }
+      },
+      "ranking": {
+        "whole_forest_agri_score": {
+          "auroc": 0.7562,
+          "average_precision": 0.7315
+        },
+        "whole_delta_score": {
+          "auroc": 0.643,
+          "average_precision": 0.6732
+        },
+        "tiles3_forest_agri_max": {
+          "auroc": 0.7478,
+          "average_precision": 0.7393
+        },
+        "tiles3_delta_max": {
+          "auroc": 0.7313,
+          "average_precision": 0.7499
+        },
+        "head_token_max": {
+          "auroc": 0.9224,
+          "average_precision": 0.9231
+        },
+        "head_token_top9": {
+          "auroc": 0.9198,
+          "average_precision": 0.9184
+        },
+        "optical_fraction": {
+          "auroc": 0.8629,
+          "average_precision": 0.8664
+        },
+        "vh_drop_q90": {
+          "auroc": 0.7856,
+          "average_precision": 0.7443
+        },
+        "optical_radar_combined": {
+          "auroc": 0.8563,
+          "average_precision": 0.8545
+        }
+      }
+    },
+    "brazil_matogrosso": {
+      "n": 71,
+      "reference_counts": {
+        "conversion": 40,
+        "no_conversion": 31
+      },
+      "binary": {
+        "whole_rule": {
+          "n": 71,
+          "coverage": 1.0,
+          "abstentions": 0,
+          "tp": 6,
+          "fn": 34,
+          "fp": 0,
+          "tn": 31,
+          "recall": 0.15,
+          "recall_ci95": [
+            0.0706,
+            0.2907
+          ],
+          "false_positive_rate": 0.0,
+          "fpr_ci95": [
+            0,
+            0.1103
+          ],
+          "precision": 1.0,
+          "precision_ci95": [
+            0.6097,
+            1.0
+          ],
+          "accuracy": 0.5211,
+          "accuracy_ci95": [
+            0.4069,
+            0.6332
+          ],
+          "balanced_accuracy": 0.575
+        },
+        "tiles3_rule": {
+          "n": 71,
+          "coverage": 1.0,
+          "abstentions": 0,
+          "tp": 15,
+          "fn": 25,
+          "fp": 8,
+          "tn": 23,
+          "recall": 0.375,
+          "recall_ci95": [
+            0.2422,
+            0.5297
+          ],
+          "false_positive_rate": 0.2581,
+          "fpr_ci95": [
+            0.137,
+            0.4325
+          ],
+          "precision": 0.6522,
+          "precision_ci95": [
+            0.4489,
+            0.8119
+          ],
+          "accuracy": 0.5352,
+          "accuracy_ci95": [
+            0.4204,
+            0.6464
+          ],
+          "balanced_accuracy": 0.5585
+        },
+        "head_rule_10fpr": {
+          "n": 71,
+          "coverage": 1.0,
+          "abstentions": 0,
+          "tp": 29,
+          "fn": 11,
+          "fp": 0,
+          "tn": 31,
+          "recall": 0.725,
+          "recall_ci95": [
+            0.5716,
+            0.8389
+          ],
+          "false_positive_rate": 0.0,
+          "fpr_ci95": [
+            0,
+            0.1103
+          ],
+          "precision": 1.0,
+          "precision_ci95": [
+            0.883,
+            1
+          ],
+          "accuracy": 0.8451,
+          "accuracy_ci95": [
+            0.7435,
+            0.9112
+          ],
+          "balanced_accuracy": 0.8625
+        }
+      },
+      "ranking": {
+        "whole_forest_agri_score": {
+          "auroc": 0.7363,
+          "average_precision": 0.7715
+        },
+        "whole_delta_score": {
+          "auroc": 0.7327,
+          "average_precision": 0.8099
+        },
+        "tiles3_forest_agri_max": {
+          "auroc": 0.7702,
+          "average_precision": 0.8122
+        },
+        "tiles3_delta_max": {
+          "auroc": 0.8,
+          "average_precision": 0.8553
+        },
+        "head_token_max": {
+          "auroc": 0.9734,
+          "average_precision": 0.981
+        },
+        "head_token_top9": {
+          "auroc": 0.9774,
+          "average_precision": 0.984
+        },
+        "optical_fraction": {
+          "auroc": 0.8685,
+          "average_precision": 0.9002
+        },
+        "vh_drop_q90": {
+          "auroc": 0.8153,
+          "average_precision": 0.8272
+        },
+        "optical_radar_combined": {
+          "auroc": 0.8694,
+          "average_precision": 0.8984
+        }
+      }
+    },
+    "brazil_para": {
+      "n": 77,
+      "reference_counts": {
+        "conversion": 35,
+        "no_conversion": 42
+      },
+      "binary": {
+        "whole_rule": {
+          "n": 77,
+          "coverage": 1.0,
+          "abstentions": 0,
+          "tp": 1,
+          "fn": 34,
+          "fp": 0,
+          "tn": 42,
+          "recall": 0.0286,
+          "recall_ci95": [
+            0.0051,
+            0.1453
+          ],
+          "false_positive_rate": 0.0,
+          "fpr_ci95": [
+            0,
+            0.0838
+          ],
+          "precision": 1.0,
+          "precision_ci95": [
+            0.2065,
+            1
+          ],
+          "accuracy": 0.5584,
+          "accuracy_ci95": [
+            0.4474,
+            0.6639
+          ],
+          "balanced_accuracy": 0.5143
+        },
+        "tiles3_rule": {
+          "n": 77,
+          "coverage": 1.0,
+          "abstentions": 0,
+          "tp": 10,
+          "fn": 25,
+          "fp": 6,
+          "tn": 36,
+          "recall": 0.2857,
+          "recall_ci95": [
+            0.1633,
+            0.4506
+          ],
+          "false_positive_rate": 0.1429,
+          "fpr_ci95": [
+            0.0672,
+            0.2784
+          ],
+          "precision": 0.625,
+          "precision_ci95": [
+            0.3864,
+            0.8152
+          ],
+          "accuracy": 0.5974,
+          "accuracy_ci95": [
+            0.4858,
+            0.6998
+          ],
+          "balanced_accuracy": 0.5714
+        },
+        "head_rule_10fpr": {
+          "n": 77,
+          "coverage": 1.0,
+          "abstentions": 0,
+          "tp": 17,
+          "fn": 18,
+          "fp": 3,
+          "tn": 39,
+          "recall": 0.4857,
+          "recall_ci95": [
+            0.3299,
+            0.6443
+          ],
+          "false_positive_rate": 0.0714,
+          "fpr_ci95": [
+            0.0246,
+            0.1901
+          ],
+          "precision": 0.85,
+          "precision_ci95": [
+            0.6396,
+            0.9476
+          ],
+          "accuracy": 0.7273,
+          "accuracy_ci95": [
+            0.6188,
+            0.8142
+          ],
+          "balanced_accuracy": 0.7071
+        }
+      },
+      "ranking": {
+        "whole_forest_agri_score": {
+          "auroc": 0.7619,
+          "average_precision": 0.692
+        },
+        "whole_delta_score": {
+          "auroc": 0.5503,
+          "average_precision": 0.4995
+        },
+        "tiles3_forest_agri_max": {
+          "auroc": 0.7156,
+          "average_precision": 0.6117
+        },
+        "tiles3_delta_max": {
+          "auroc": 0.6517,
+          "average_precision": 0.5638
+        },
+        "head_token_max": {
+          "auroc": 0.8639,
+          "average_precision": 0.8114
+        },
+        "head_token_top9": {
+          "auroc": 0.8605,
+          "average_precision": 0.7902
+        },
+        "optical_fraction": {
+          "auroc": 0.8622,
+          "average_precision": 0.8301
+        },
+        "vh_drop_q90": {
+          "auroc": 0.7612,
+          "average_precision": 0.6676
+        },
+        "optical_radar_combined": {
+          "auroc": 0.8531,
+          "average_precision": 0.8056
+        }
+      }
+    }
+  },
+  "notes": [
+    "Rules and head threshold were fixed before Brazil reference evaluation.",
+    "Abstentions are excluded from conditional rule metrics and counted as reduced coverage.",
+    "Average precision depends on the positive prevalence in this stratified sample.",
+    "Raw accuracy and precision are also sample-dependent because alert windows were deliberately oversampled.",
+    "Wilson intervals treat sampled windows as independent and do not adjust for spatial clustering or map error.",
+    "Reference positives require a dated alert and a later mapped crop or pasture; map/alert omissions may cause apparent false positives.",
+    "Timed-out TerraClass spatial queries are reference nonresponse and may reduce geographic representativeness, especially in Par\u00e1.",
+    "Only one resolved negative has >=0.5ha mapped primary forest to secondary forest or silviculture. Other nonagricultural transitions were not separately enumerated, so these results do not establish discrimination among post-loss land uses."
+  ]
+}

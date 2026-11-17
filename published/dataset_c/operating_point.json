@@ -1,0 +1,49 @@
+{
+  "thresholds": {
+    "joint_top9": {
+      "threshold": 0.25337934494018555,
+      "validation_recall": 0.8611111111111112,
+      "validation_fpr": 0.0625,
+      "positive_n": 72,
+      "negative_n": 32,
+      "comparison": "score >= threshold"
+    },
+    "landuse_top9": {
+      "threshold": 0.7643408179283142,
+      "validation_recall": 0.9305555555555556,
+      "validation_fpr": 0.09375,
+      "positive_n": 72,
+      "negative_n": 32,
+      "comparison": "score >= threshold"
+    },
+    "spectral_joint_top9": {
+      "threshold": 0.7250828742980957,
+      "validation_recall": 0.7083333333333334,
+      "validation_fpr": 0.09375,
+      "positive_n": 72,
+      "negative_n": 32,
+      "comparison": "score >= threshold"
+    },
+    "change_top9": {
+      "threshold": 0.999894380569458,
+      "validation_recall": 0.3888888888888889,
+      "validation_fpr": 0.09375,
+      "positive_n": 72,
+      "negative_n": 32,
+      "comparison": "score >= threshold"
+    },
+    "optical_fraction": {
+      "threshold": 0.4256198347107438,
+      "validation_recall": 0.6388888888888888,
+      "validation_fpr": 0.09375,
+      "positive_n": 72,
+      "negative_n": 32,
+      "comparison": "score >= threshold"
+    }
+  },
+  "selection": "Maximum validation recall with empirical nonagri-loss FPR <=10%",
+  "seed": 20261001,
+  "reference_sha256": "6dd3342ea52755891a7c32190b266648ff834bc72337a132d64f00db2495d602",
+  "tokens_head_sha256": "6f87f8fba4a68fb90238b430495a1adebc3efbb2c5c52adf16155168d3c3e9ad",
+  "spectral_head_sha256": "730bba077fbd15c2cce9ce2d3610b5a6f8028a7eb5f3662f8ec869097485c80e"
+}

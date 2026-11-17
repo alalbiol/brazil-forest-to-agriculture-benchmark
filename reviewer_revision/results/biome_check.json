@@ -1,0 +1,8 @@
+{
+  "source": "IBGE Biomas 1:250,000 (2019)",
+  "archive_sha256": "1d8a4d860d9c203b10ef41dd0701ced2e389ad86442e23a815a7cccdc98ca0c5",
+  "crs": "EPSG:4674",
+  "n": 100,
+  "outside_centres": [],
+  "outside_440m_chips": []
+}

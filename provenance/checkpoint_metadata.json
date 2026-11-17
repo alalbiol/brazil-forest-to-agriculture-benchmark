@@ -1,0 +1,26 @@
+{
+  "top_level_keys": [
+    "epoch",
+    "model_state_dict",
+    "optimizer_state_dict",
+    "metrics"
+  ],
+  "metadata": {
+    "epoch": 8,
+    "metrics": {
+      "train_loss": 0.13460351898664905,
+      "loss": 0.16348038087370806,
+      "ap_macro": 0.7758219757175177,
+      "ap_micro": 0.866749307219765,
+      "f1_macro": 0.6970884594261367,
+      "f1_micro": 0.7692225836216516
+    }
+  },
+  "state_tensor_count": 171,
+  "old_head_metadata": {
+    "in_channels": 1536,
+    "hidden": 256,
+    "combine": "concat_diff",
+    "dropout": 0.1
+  }
+}

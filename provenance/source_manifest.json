@@ -1,0 +1,119 @@
+{
+  "sources": [
+    {
+      "path": "data/raw/terraclass/CER.2024.MATO_GROSSO.51.V.zip",
+      "url": "https://www.terraclass.gov.br/download-de-dados/arquivos/V/estadual/CER.2024.MATO_GROSSO.51.V.zip",
+      "bytes": 286144333,
+      "sha256": "2445c048f1e9577d813f42ba89521e657970ea15eb971f168466eb431bb51ca3",
+      "zip_members": [
+        "CER.2024.MATO_GROSSO.51.V.cpg",
+        "CER.2024.MATO_GROSSO.51.V.dbf",
+        "CER.2024.MATO_GROSSO.51.V.prj",
+        "CER.2024.MATO_GROSSO.51.V.qml",
+        "CER.2024.MATO_GROSSO.51.V.shp",
+        "CER.2024.MATO_GROSSO.51.V.shx"
+      ]
+    },
+    {
+      "path": "data/raw/terraclass/AMZ.2024.PARA.15.V.zip",
+      "url": "https://www.terraclass.gov.br/download-de-dados/arquivos/V/estadual/AMZ.2024.PARA.15.V.zip",
+      "bytes": 1155148126,
+      "sha256": "f1979a7768662bc1d53f2667c7d983c0cb4bf5245f4915c26a98bfea833fb8e0",
+      "zip_members": [
+        "AMZ.2024.PARA.15.V.gpkg",
+        "AMZ.2024.PARA.15.V.qml"
+      ]
+    },
+    {
+      "path": "data/raw/terraclass/CER.2020.MATO_GROSSO.51.V.zip",
+      "url": "https://www.terraclass.gov.br/download-de-dados/arquivos/V/estadual/CER.2020.MATO_GROSSO.51.V.zip",
+      "bytes": 210633654,
+      "sha256": "be542d0d4f1857c88cf814034f21267b916e594885a210fe3f8ad1cdf8cf0a01",
+      "zip_members": [
+        "CER.2020.MATO_GROSSO.51.V.cpg",
+        "CER.2020.MATO_GROSSO.51.V.dbf",
+        "CER.2020.MATO_GROSSO.51.V.prj",
+        "CER.2020.MATO_GROSSO.51.V.qml",
+        "CER.2020.MATO_GROSSO.51.V.shp",
+        "CER.2020.MATO_GROSSO.51.V.shx"
+      ]
+    },
+    {
+      "path": "data/raw/terraclass/AMZ.2020.PARA.15.V.zip",
+      "url": "https://www.terraclass.gov.br/download-de-dados/arquivos/V/estadual/AMZ.2020.PARA.15.V.zip",
+      "bytes": 1329168593,
+      "sha256": "ee66ded0941308efd67bb45b95c1d3b44c293d76a42bb40b8675a9ff0bf03d9a",
+      "zip_members": [
+        "AMZ.2020.PARA.15.V.gpkg",
+        "AMZ.2020.PARA.15.V.qml"
+      ]
+    },
+    {
+      "path": "data/raw/mapbiomas/RAD_2024_alertas.zip",
+      "url": "https://storage.googleapis.com/alerta-public/rad_2024/RAD_2024_alertas.zip",
+      "bytes": 432348744,
+      "sha256": "9032a9324feb8e57860c690036efe5c8572785ed211b94e4272c884ee3a777d7",
+      "zip_members": [
+        "RAD_2024_alertas.shp",
+        "RAD_2024_alertas.dbf",
+        "RAD_2024_alertas.prj",
+        "RAD_2024_alertas.shx"
+      ]
+    },
+    {
+      "path": "data/raw/mapbiomas/RAD_2024_alertas.xlsx",
+      "url": "https://storage.googleapis.com/alerta-public/rad_2024/RAD_2024_alertas.xlsx",
+      "bytes": 29754328,
+      "sha256": "9329b58a4a8b1e6bcd356422d1debdfa91a4fa2027220bbfc0ec55344bae19c3",
+      "zip_members": []
+    },
+    {
+      "path": "data/raw/terraclass/CER.2020.PARA.15.V.zip",
+      "url": "https://www.terraclass.gov.br/download-de-dados/arquivos/V/estadual/CER.2020.PARA.15.V.zip",
+      "bytes": 12379790,
+      "sha256": "cc7df3adac6d999e51eb133e9d07446ef6263bf1aa94271131c09cff0376b5ef",
+      "zip_members": [
+        "CER.2020.PARA.15.V.cpg",
+        "CER.2020.PARA.15.V.dbf",
+        "CER.2020.PARA.15.V.prj",
+        "CER.2020.PARA.15.V.qml",
+        "CER.2020.PARA.15.V.shp",
+        "CER.2020.PARA.15.V.shx"
+      ]
+    },
+    {
+      "path": "data/raw/terraclass/CER.2024.PARA.15.V.zip",
+      "url": "https://www.terraclass.gov.br/download-de-dados/arquivos/V/estadual/CER.2024.PARA.15.V.zip",
+      "bytes": 15744707,
+      "sha256": "751184b4ae6e1fcc57c8c1ebbb193a74aaae12db9443f491488d4eb79517bc75",
+      "zip_members": [
+        "CER.2024.PARA.15.V.cpg",
+        "CER.2024.PARA.15.V.dbf",
+        "CER.2024.PARA.15.V.prj",
+        "CER.2024.PARA.15.V.qml",
+        "CER.2024.PARA.15.V.shp",
+        "CER.2024.PARA.15.V.shx"
+      ]
+    },
+    {
+      "path": "data/raw/terraclass/AMZ.2020.MATO_GROSSO.51.V.zip",
+      "url": "https://www.terraclass.gov.br/download-de-dados/arquivos/V/estadual/AMZ.2020.MATO_GROSSO.51.V.zip",
+      "bytes": 612508095,
+      "sha256": "3bff30becb4ce7c7e8f17b4a0f41c0a1914a33dff538426101caf74f7fb11b0e",
+      "zip_members": [
+        "AMZ.2020.MATO_GROSSO.51.V.gpkg",
+        "AMZ.2020.MATO_GROSSO.51.V.qml"
+      ]
+    },
+    {
+      "path": "data/raw/terraclass/AMZ.2024.MATO_GROSSO.51.V.zip",
+      "url": "https://www.terraclass.gov.br/download-de-dados/arquivos/V/estadual/AMZ.2024.MATO_GROSSO.51.V.zip",
+      "bytes": 656507368,
+      "sha256": "3f4e1d5d822246639f6065773a5444479d310ea595341d433a890e0eeac26031",
+      "zip_members": [
+        "AMZ.2024.MATO_GROSSO.51.V.gpkg",
+        "AMZ.2024.MATO_GROSSO.51.V.qml"
+      ]
+    }
+  ]
+}

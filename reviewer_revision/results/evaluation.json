@@ -1,0 +1,1933 @@
+{
+  "protocol_sha256": "6b93e8879034dc8cb6db1e353b30afaa25cd8a81dcff3c23143748d2f206343f",
+  "operating_points_sha256": "13ccf17d430d0024cebbbc1124f86a66c4d1d7e2e1ff475a7e87d7dda69a8b1a",
+  "results": {
+    "loss_endpoints": {
+      "n": 113,
+      "positive_n": 84,
+      "negative_n": 29,
+      "methods": {
+        "joint_original": {
+          "label": "TerraFM endpoint \u00d7 inherited change",
+          "auroc": 0.8994252873563218,
+          "average_precision": 0.9700929808624065,
+          "tp": 72,
+          "fn": 12,
+          "fp": 3,
+          "tn": 26,
+          "recall": 0.8571428571428571,
+          "recall_ci95_wilson": [
+            0.7666970498084034,
+            0.9163506178114942
+          ],
+          "fpr": 0.10344827586206896,
+          "fpr_ci95_wilson": [
+            0.035814240381301043,
+            0.26385447247069155
+          ],
+          "accuracy": 0.8672566371681416,
+          "balanced_accuracy": 0.8768472906403941
+        },
+        "endpoint_terrafm": {
+          "label": "TerraFM endpoint only",
+          "auroc": 0.9638752052545156,
+          "average_precision": 0.9871959661260801,
+          "tp": 73,
+          "fn": 11,
+          "fp": 2,
+          "tn": 27,
+          "recall": 0.8690476190476191,
+          "recall_ci95_wilson": [
+            0.7805373686566762,
+            0.9252785545505514
+          ],
+          "fpr": 0.06896551724137931,
+          "fpr_ci95_wilson": [
+            0.019120864097994433,
+            0.21964947595851925
+          ],
+          "accuracy": 0.8849557522123894,
+          "balanced_accuracy": 0.9000410509031199
+        },
+        "postclassification": {
+          "label": "TerraFM post-classification",
+          "auroc": 0.963464696223317,
+          "average_precision": 0.987157227828974,
+          "tp": 68,
+          "fn": 16,
+          "fp": 1,
+          "tn": 28,
+          "recall": 0.8095238095238095,
+          "recall_ci95_wilson": [
+            0.7127605972340397,
+            0.8792140480365381
+          ],
+          "fpr": 0.034482758620689655,
+          "fpr_ci95_wilson": [
+            0.006113056614032261,
+            0.1717589106470025
+          ],
+          "accuracy": 0.8495575221238938,
+          "balanced_accuracy": 0.8875205254515599
+        },
+        "bitemporal_terrafm": {
+          "label": "Direct bitemporal TerraFM",
+          "auroc": 0.9663382594417078,
+          "average_precision": 0.98876029070421,
+          "tp": 76,
+          "fn": 8,
+          "fp": 3,
+          "tn": 26,
+          "recall": 0.9047619047619048,
+          "recall_ci95_wilson": [
+            0.8231718131587017,
+            0.9509488768105155
+          ],
+          "fpr": 0.10344827586206896,
+          "fpr_ci95_wilson": [
+            0.035814240381301043,
+            0.26385447247069155
+          ],
+          "accuracy": 0.9026548672566371,
+          "balanced_accuracy": 0.9006568144499179
+        },
+        "spectral_linear_endpoint": {
+          "label": "Converged linear spectral endpoint",
+          "auroc": 0.8977832512315271,
+          "average_precision": 0.9529899362071849,
+          "tp": 61,
+          "fn": 23,
+          "fp": 4,
+          "tn": 25,
+          "recall": 0.7261904761904762,
+          "recall_ci95_wilson": [
+            0.6225237946430133,
+            0.810073061516255
+          ],
+          "fpr": 0.13793103448275862,
+          "fpr_ci95_wilson": [
+            0.05497350852047822,
+            0.30559357712699325
+          ],
+          "accuracy": 0.7610619469026548,
+          "balanced_accuracy": 0.7941297208538588
+        },
+        "spectral_linear_joint": {
+          "label": "Converged linear spectral endpoint \u00d7 change",
+          "auroc": 0.8715106732348111,
+          "average_precision": 0.9576033452760817,
+          "tp": 68,
+          "fn": 16,
+          "fp": 4,
+          "tn": 25,
+          "recall": 0.8095238095238095,
+          "recall_ci95_wilson": [
+            0.7127605972340397,
+            0.8792140480365381
+          ],
+          "fpr": 0.13793103448275862,
+          "fpr_ci95_wilson": [
+            0.05497350852047822,
+            0.30559357712699325
+          ],
+          "accuracy": 0.8230088495575221,
+          "balanced_accuracy": 0.8357963875205254
+        },
+        "spectral_forest_bitemporal": {
+          "label": "Bitemporal spectral random forest",
+          "auroc": 0.9343185550082101,
+          "average_precision": 0.9717055622603199,
+          "tp": 72,
+          "fn": 12,
+          "fp": 3,
+          "tn": 26,
+          "recall": 0.8571428571428571,
+          "recall_ci95_wilson": [
+            0.7666970498084034,
+            0.9163506178114942
+          ],
+          "fpr": 0.10344827586206896,
+          "fpr_ci95_wilson": [
+            0.035814240381301043,
+            0.26385447247069155
+          ],
+          "accuracy": 0.8672566371681416,
+          "balanced_accuracy": 0.8768472906403941
+        },
+        "change_original": {
+          "label": "Inherited change head",
+          "auroc": 0.7005336617405583,
+          "average_precision": 0.8703026989962268,
+          "tp": 29,
+          "fn": 55,
+          "fp": 2,
+          "tn": 27,
+          "recall": 0.34523809523809523,
+          "recall_ci95_wilson": [
+            0.2523486284686916,
+            0.45166404889601935
+          ],
+          "fpr": 0.06896551724137931,
+          "fpr_ci95_wilson": [
+            0.019120864097994433,
+            0.21964947595851925
+          ],
+          "accuracy": 0.49557522123893805,
+          "balanced_accuracy": 0.6381362889983581
+        },
+        "optical_index": {
+          "label": "Optical-index change",
+          "auroc": 0.7584154351395731,
+          "average_precision": 0.8778010750114764,
+          "tp": 46,
+          "fn": 38,
+          "fp": 4,
+          "tn": 25,
+          "recall": 0.5476190476190477,
+          "recall_ci95_wilson": [
+            0.44142846686988807,
+            0.6496445554794317
+          ],
+          "fpr": 0.13793103448275862,
+          "fpr_ci95_wilson": [
+            0.05497350852047822,
+            0.30559357712699325
+          ],
+          "accuracy": 0.6283185840707964,
+          "balanced_accuracy": 0.7048440065681445
+        }
+      },
+      "block_bootstrap": {
+        "methods": {
+          "joint_original": {
+            "ci95": [
+              0.8359427438687075,
+              0.951939330593629
+            ],
+            "valid_draws": 4000
+          },
+          "endpoint_terrafm": {
+            "ci95": [
+              0.9247308807538964,
+              0.990434942455243
+            ],
+            "valid_draws": 4000
+          },
+          "postclassification": {
+            "ci95": [
+              0.9242053571428572,
+              0.9894310772732027
+            ],
+            "valid_draws": 4000
+          },
+          "bitemporal_terrafm": {
+            "ci95": [
+              0.9295623604696355,
+              0.9920930280947265
+            ],
+            "valid_draws": 4000
+          },
+          "spectral_linear_endpoint": {
+            "ci95": [
+              0.8075670498084291,
+              0.9654902584823158
+            ],
+            "valid_draws": 4000
+          },
+          "spectral_linear_joint": {
+            "ci95": [
+              0.7988479305320884,
+              0.9336896892462859
+            ],
+            "valid_draws": 4000
+          },
+          "spectral_forest_bitemporal": {
+            "ci95": [
+              0.8643678505394479,
+              0.9811998849727508
+            ],
+            "valid_draws": 4000
+          },
+          "change_original": {
+            "ci95": [
+              0.5757473471650302,
+              0.8146411068102939
+            ],
+            "valid_draws": 4000
+          },
+          "optical_index": {
+            "ci95": [
+              0.6470588235294118,
+              0.859017255892256
+            ],
+            "valid_draws": 4000
+          }
+        },
+        "contrasts": {
+          "joint_original_minus_change_original": {
+            "ci95": [
+              0.10386096014492756,
+              0.3052097039473684
+            ],
+            "valid_draws": 4000
+          },
+          "endpoint_terrafm_minus_joint_original": {
+            "ci95": [
+              0.01882337128399745,
+              0.11767161733615226
+            ],
+            "valid_draws": 4000
+          },
+          "endpoint_terrafm_minus_spectral_linear_endpoint": {
+            "ci95": [
+              0.010677344010677211,
+              0.13837033933808124
+            ],
+            "valid_draws": 4000
+          },
+          "bitemporal_terrafm_minus_spectral_forest_bitemporal": {
+            "ci95": [
+              -0.012197895052786815,
+              0.08499001015134744
+            ],
+            "valid_draws": 4000
+          },
+          "postclassification_minus_spectral_forest_bitemporal": {
+            "ci95": [
+              -0.015446894467745914,
+              0.08189981713688609
+            ],
+            "valid_draws": 4000
+          }
+        },
+        "unit": "original 10 km block",
+        "iterations": 4000
+      }
+    },
+    "loss_and_stable_forest": {
+      "n": 148,
+      "positive_n": 84,
+      "negative_n": 64,
+      "methods": {
+        "joint_original": {
+          "label": "TerraFM endpoint \u00d7 inherited change",
+          "auroc": 0.9512648809523809,
+          "average_precision": 0.9685523085649581,
+          "tp": 72,
+          "fn": 12,
+          "fp": 3,
+          "tn": 61,
+          "recall": 0.8571428571428571,
+          "recall_ci95_wilson": [
+            0.7666970498084034,
+            0.9163506178114942
+          ],
+          "fpr": 0.046875,
+          "fpr_ci95_wilson": [
+            0.016068725432185196,
+            0.12899860788542522
+          ],
+          "accuracy": 0.8986486486486487,
+          "balanced_accuracy": 0.9051339285714286
+        },
+        "endpoint_terrafm": {
+          "label": "TerraFM endpoint only",
+          "auroc": 0.9717261904761905,
+          "average_precision": 0.9749305296659706,
+          "tp": 73,
+          "fn": 11,
+          "fp": 3,
+          "tn": 61,
+          "recall": 0.8690476190476191,
+          "recall_ci95_wilson": [
+            0.7805373686566762,
+            0.9252785545505514
+          ],
+          "fpr": 0.046875,
+          "fpr_ci95_wilson": [
+            0.016068725432185196,
+            0.12899860788542522
+          ],
+          "accuracy": 0.9054054054054054,
+          "balanced_accuracy": 0.9110863095238095
+        },
+        "postclassification": {
+          "label": "TerraFM post-classification",
+          "auroc": 0.9802827380952381,
+          "average_precision": 0.985081907685426,
+          "tp": 68,
+          "fn": 16,
+          "fp": 1,
+          "tn": 63,
+          "recall": 0.8095238095238095,
+          "recall_ci95_wilson": [
+            0.7127605972340397,
+            0.8792140480365381
+          ],
+          "fpr": 0.015625,
+          "fpr_ci95_wilson": [
+            0.0027634707504014047,
+            0.08334298900290629
+          ],
+          "accuracy": 0.8851351351351351,
+          "balanced_accuracy": 0.8969494047619048
+        },
+        "bitemporal_terrafm": {
+          "label": "Direct bitemporal TerraFM",
+          "auroc": 0.9694940476190477,
+          "average_precision": 0.9611127476881645,
+          "tp": 76,
+          "fn": 8,
+          "fp": 4,
+          "tn": 60,
+          "recall": 0.9047619047619048,
+          "recall_ci95_wilson": [
+            0.8231718131587017,
+            0.9509488768105155
+          ],
+          "fpr": 0.0625,
+          "fpr_ci95_wilson": [
+            0.024570803674792932,
+            0.14997696642496888
+          ],
+          "accuracy": 0.918918918918919,
+          "balanced_accuracy": 0.9211309523809523
+        },
+        "spectral_linear_endpoint": {
+          "label": "Converged linear spectral endpoint",
+          "auroc": 0.9464285714285714,
+          "average_precision": 0.9480733174078743,
+          "tp": 61,
+          "fn": 23,
+          "fp": 5,
+          "tn": 59,
+          "recall": 0.7261904761904762,
+          "recall_ci95_wilson": [
+            0.6225237946430133,
+            0.810073061516255
+          ],
+          "fpr": 0.078125,
+          "fpr_ci95_wilson": [
+            0.03383067809543547,
+            0.1701975287864777
+          ],
+          "accuracy": 0.8108108108108109,
+          "balanced_accuracy": 0.8240327380952381
+        },
+        "spectral_linear_joint": {
+          "label": "Converged linear spectral endpoint \u00d7 change",
+          "auroc": 0.9388020833333334,
+          "average_precision": 0.9562426508596261,
+          "tp": 68,
+          "fn": 16,
+          "fp": 4,
+          "tn": 60,
+          "recall": 0.8095238095238095,
+          "recall_ci95_wilson": [
+            0.7127605972340397,
+            0.8792140480365381
+          ],
+          "fpr": 0.0625,
+          "fpr_ci95_wilson": [
+            0.024570803674792932,
+            0.14997696642496888
+          ],
+          "accuracy": 0.8648648648648649,
+          "balanced_accuracy": 0.8735119047619048
+        },
+        "spectral_forest_bitemporal": {
+          "label": "Bitemporal spectral random forest",
+          "auroc": 0.9696800595238095,
+          "average_precision": 0.9714036977687202,
+          "tp": 72,
+          "fn": 12,
+          "fp": 3,
+          "tn": 61,
+          "recall": 0.8571428571428571,
+          "recall_ci95_wilson": [
+            0.7666970498084034,
+            0.9163506178114942
+          ],
+          "fpr": 0.046875,
+          "fpr_ci95_wilson": [
+            0.016068725432185196,
+            0.12899860788542522
+          ],
+          "accuracy": 0.8986486486486487,
+          "balanced_accuracy": 0.9051339285714286
+        },
+        "change_original": {
+          "label": "Inherited change head",
+          "auroc": 0.8615141369047619,
+          "average_precision": 0.8690354405371844,
+          "tp": 29,
+          "fn": 55,
+          "fp": 2,
+          "tn": 62,
+          "recall": 0.34523809523809523,
+          "recall_ci95_wilson": [
+            0.2523486284686916,
+            0.45166404889601935
+          ],
+          "fpr": 0.03125,
+          "fpr_ci95_wilson": [
+            0.00861195771251659,
+            0.10697493882294247
+          ],
+          "accuracy": 0.6148648648648649,
+          "balanced_accuracy": 0.6569940476190477
+        },
+        "optical_index": {
+          "label": "Optical-index change",
+          "auroc": 0.8850446428571429,
+          "average_precision": 0.8747243422294706,
+          "tp": 46,
+          "fn": 38,
+          "fp": 4,
+          "tn": 60,
+          "recall": 0.5476190476190477,
+          "recall_ci95_wilson": [
+            0.44142846686988807,
+            0.6496445554794317
+          ],
+          "fpr": 0.0625,
+          "fpr_ci95_wilson": [
+            0.024570803674792932,
+            0.14997696642496888
+          ],
+          "accuracy": 0.7162162162162162,
+          "balanced_accuracy": 0.7425595238095238
+        }
+      },
+      "block_bootstrap": {
+        "methods": {
+          "joint_original": {
+            "ci95": [
+              0.9164712780214426,
+              0.9780964238121497
+            ],
+            "valid_draws": 4000
+          },
+          "endpoint_terrafm": {
+            "ci95": [
+              0.9434859637488947,
+              0.9925320120707934
+            ],
+            "valid_draws": 4000
+          },
+          "postclassification": {
+            "ci95": [
+              0.9604571728565098,
+              0.9937985464991062
+            ],
+            "valid_draws": 4000
+          },
+          "bitemporal_terrafm": {
+            "ci95": [
+              0.9339369090887293,
+              0.994383642449517
+            ],
+            "valid_draws": 4000
+          },
+          "spectral_linear_endpoint": {
+            "ci95": [
+              0.9027422393215532,
+              0.9794880249913224
+            ],
+            "valid_draws": 4000
+          },
+          "spectral_linear_joint": {
+            "ci95": [
+              0.8999638352096315,
+              0.971259086323305
+            ],
+            "valid_draws": 4000
+          },
+          "spectral_forest_bitemporal": {
+            "ci95": [
+              0.939077951237581,
+              0.9916088533114394
+            ],
+            "valid_draws": 4000
+          },
+          "change_original": {
+            "ci95": [
+              0.7889480832286724,
+              0.9236333198051949
+            ],
+            "valid_draws": 4000
+          },
+          "optical_index": {
+            "ci95": [
+              0.8232211837161487,
+              0.9401929258241759
+            ],
+            "valid_draws": 4000
+          }
+        },
+        "contrasts": {
+          "joint_original_minus_change_original": {
+            "ci95": [
+              0.04099788032849861,
+              0.15108098628446348
+            ],
+            "valid_draws": 4000
+          },
+          "endpoint_terrafm_minus_joint_original": {
+            "ci95": [
+              -0.009213817996022274,
+              0.05167993201508924
+            ],
+            "valid_draws": 4000
+          },
+          "endpoint_terrafm_minus_spectral_linear_endpoint": {
+            "ci95": [
+              -0.0045614451210429004,
+              0.06031785646281659
+            ],
+            "valid_draws": 4000
+          },
+          "bitemporal_terrafm_minus_spectral_forest_bitemporal": {
+            "ci95": [
+              -0.03841060947499173,
+              0.030982856236977857
+            ],
+            "valid_draws": 4000
+          },
+          "postclassification_minus_spectral_forest_bitemporal": {
+            "ci95": [
+              -0.01155094785805907,
+              0.03462402773795799
+            ],
+            "valid_draws": 4000
+          }
+        },
+        "unit": "original 10 km block",
+        "iterations": 4000
+      }
+    },
+    "agriculture_vs_mining": {
+      "n": 103,
+      "positive_n": 84,
+      "negative_n": 19,
+      "methods": {
+        "joint_original": {
+          "label": "TerraFM endpoint \u00d7 inherited change",
+          "auroc": 0.894110275689223,
+          "average_precision": 0.9786282323402324,
+          "tp": 72,
+          "fn": 12,
+          "fp": 2,
+          "tn": 17,
+          "recall": 0.8571428571428571,
+          "recall_ci95_wilson": [
+            0.7666970498084034,
+            0.9163506178114942
+          ],
+          "fpr": 0.10526315789473684,
+          "fpr_ci95_wilson": [
+            0.029357941395096593,
+            0.313945504948417
+          ],
+          "accuracy": 0.8640776699029126,
+          "balanced_accuracy": 0.8759398496240602
+        },
+        "endpoint_terrafm": {
+          "label": "TerraFM endpoint only",
+          "auroc": 0.9843358395989975,
+          "average_precision": 0.99644744598625,
+          "tp": 73,
+          "fn": 11,
+          "fp": 0,
+          "tn": 19,
+          "recall": 0.8690476190476191,
+          "recall_ci95_wilson": [
+            0.7805373686566762,
+            0.9252785545505514
+          ],
+          "fpr": 0.0,
+          "fpr_ci95_wilson": [
+            0.0,
+            0.16818436536845052
+          ],
+          "accuracy": 0.8932038834951457,
+          "balanced_accuracy": 0.9345238095238095
+        },
+        "postclassification": {
+          "label": "TerraFM post-classification",
+          "auroc": 0.9830827067669173,
+          "average_precision": 0.9961855224613505,
+          "tp": 68,
+          "fn": 16,
+          "fp": 0,
+          "tn": 19,
+          "recall": 0.8095238095238095,
+          "recall_ci95_wilson": [
+            0.7127605972340397,
+            0.8792140480365381
+          ],
+          "fpr": 0.0,
+          "fpr_ci95_wilson": [
+            0.0,
+            0.16818436536845052
+          ],
+          "accuracy": 0.8446601941747572,
+          "balanced_accuracy": 0.9047619047619048
+        },
+        "bitemporal_terrafm": {
+          "label": "Direct bitemporal TerraFM",
+          "auroc": 0.9780701754385965,
+          "average_precision": 0.9952988579992279,
+          "tp": 76,
+          "fn": 8,
+          "fp": 1,
+          "tn": 18,
+          "recall": 0.9047619047619048,
+          "recall_ci95_wilson": [
+            0.8231718131587017,
+            0.9509488768105155
+          ],
+          "fpr": 0.05263157894736842,
+          "fpr_ci95_wilson": [
+            0.009351752490529969,
+            0.2463921533654521
+          ],
+          "accuracy": 0.912621359223301,
+          "balanced_accuracy": 0.9260651629072681
+        },
+        "spectral_linear_endpoint": {
+          "label": "Converged linear spectral endpoint",
+          "auroc": 0.9398496240601504,
+          "average_precision": 0.9800855984517138,
+          "tp": 61,
+          "fn": 23,
+          "fp": 1,
+          "tn": 18,
+          "recall": 0.7261904761904762,
+          "recall_ci95_wilson": [
+            0.6225237946430133,
+            0.810073061516255
+          ],
+          "fpr": 0.05263157894736842,
+          "fpr_ci95_wilson": [
+            0.009351752490529969,
+            0.2463921533654521
+          ],
+          "accuracy": 0.7669902912621359,
+          "balanced_accuracy": 0.836779448621554
+        },
+        "spectral_linear_joint": {
+          "label": "Converged linear spectral endpoint \u00d7 change",
+          "auroc": 0.8822055137844612,
+          "average_precision": 0.9755820148237038,
+          "tp": 68,
+          "fn": 16,
+          "fp": 1,
+          "tn": 18,
+          "recall": 0.8095238095238095,
+          "recall_ci95_wilson": [
+            0.7127605972340397,
+            0.8792140480365381
+          ],
+          "fpr": 0.05263157894736842,
+          "fpr_ci95_wilson": [
+            0.009351752490529969,
+            0.2463921533654521
+          ],
+          "accuracy": 0.8349514563106796,
+          "balanced_accuracy": 0.8784461152882206
+        },
+        "spectral_forest_bitemporal": {
+          "label": "Bitemporal spectral random forest",
+          "auroc": 0.9661654135338346,
+          "average_precision": 0.9916131120622056,
+          "tp": 72,
+          "fn": 12,
+          "fp": 1,
+          "tn": 18,
+          "recall": 0.8571428571428571,
+          "recall_ci95_wilson": [
+            0.7666970498084034,
+            0.9163506178114942
+          ],
+          "fpr": 0.05263157894736842,
+          "fpr_ci95_wilson": [
+            0.009351752490529969,
+            0.2463921533654521
+          ],
+          "accuracy": 0.8737864077669902,
+          "balanced_accuracy": 0.9022556390977444
+        },
+        "change_original": {
+          "label": "Inherited change head",
+          "auroc": 0.606829573934837,
+          "average_precision": 0.8809827839137372,
+          "tp": 29,
+          "fn": 55,
+          "fp": 2,
+          "tn": 17,
+          "recall": 0.34523809523809523,
+          "recall_ci95_wilson": [
+            0.2523486284686916,
+            0.45166404889601935
+          ],
+          "fpr": 0.10526315789473684,
+          "fpr_ci95_wilson": [
+            0.029357941395096593,
+            0.313945504948417
+          ],
+          "accuracy": 0.44660194174757284,
+          "balanced_accuracy": 0.6199874686716793
+        },
+        "optical_index": {
+          "label": "Optical-index change",
+          "auroc": 0.6986215538847118,
+          "average_precision": 0.8927469132607035,
+          "tp": 46,
+          "fn": 38,
+          "fp": 3,
+          "tn": 16,
+          "recall": 0.5476190476190477,
+          "recall_ci95_wilson": [
+            0.44142846686988807,
+            0.6496445554794317
+          ],
+          "fpr": 0.15789473684210525,
+          "fpr_ci95_wilson": [
+            0.055203710399278266,
+            0.3756592764317668
+          ],
+          "accuracy": 0.6019417475728155,
+          "balanced_accuracy": 0.6948621553884712
+        }
+      },
+      "block_bootstrap": {
+        "methods": {
+          "joint_original": {
+            "ci95": [
+              0.827730009529585,
+              0.9513729575163399
+            ],
+            "valid_draws": 4000
+          },
+          "endpoint_terrafm": {
+            "ci95": [
+              0.958044999609039,
+              0.9989788332765861
+            ],
+            "valid_draws": 4000
+          },
+          "postclassification": {
+            "ci95": [
+              0.957099618472245,
+              0.9983948635634028
+            ],
+            "valid_draws": 4000
+          },
+          "bitemporal_terrafm": {
+            "ci95": [
+              0.9477911251709987,
+              0.9967532467532467
+            ],
+            "valid_draws": 4000
+          },
+          "spectral_linear_endpoint": {
+            "ci95": [
+              0.8405119282891023,
+              0.9922213523466481
+            ],
+            "valid_draws": 4000
+          },
+          "spectral_linear_joint": {
+            "ci95": [
+              0.8100416094905051,
+              0.9412111377712152
+            ],
+            "valid_draws": 4000
+          },
+          "spectral_forest_bitemporal": {
+            "ci95": [
+              0.9215033938595486,
+              0.9972290847347306
+            ],
+            "valid_draws": 4000
+          },
+          "change_original": {
+            "ci95": [
+              0.44206868723098997,
+              0.7517658730158732
+            ],
+            "valid_draws": 4000
+          },
+          "optical_index": {
+            "ci95": [
+              0.5477047541578899,
+              0.8235301682401355
+            ],
+            "valid_draws": 4000
+          }
+        },
+        "contrasts": {
+          "joint_original_minus_change_original": {
+            "ci95": [
+              0.16101228508280954,
+              0.4407516339869281
+            ],
+            "valid_draws": 4000
+          },
+          "endpoint_terrafm_minus_joint_original": {
+            "ci95": [
+              0.03915584663163569,
+              0.14965368994776096
+            ],
+            "valid_draws": 4000
+          },
+          "endpoint_terrafm_minus_spectral_linear_endpoint": {
+            "ci95": [
+              -0.004397321428571304,
+              0.1287206229474549
+            ],
+            "valid_draws": 4000
+          },
+          "bitemporal_terrafm_minus_spectral_forest_bitemporal": {
+            "ci95": [
+              -0.02873563218390796,
+              0.058141072966654356
+            ],
+            "valid_draws": 4000
+          },
+          "postclassification_minus_spectral_forest_bitemporal": {
+            "ci95": [
+              -0.02034883720930236,
+              0.062447608673098884
+            ],
+            "valid_draws": 4000
+          }
+        },
+        "unit": "original 10 km block",
+        "iterations": 4000
+      }
+    },
+    "agriculture_vs_secondary_forest": {
+      "n": 94,
+      "positive_n": 84,
+      "negative_n": 10,
+      "methods": {
+        "joint_original": {
+          "label": "TerraFM endpoint \u00d7 inherited change",
+          "auroc": 0.9095238095238095,
+          "average_precision": 0.9889730809806659,
+          "tp": 72,
+          "fn": 12,
+          "fp": 1,
+          "tn": 9,
+          "recall": 0.8571428571428571,
+          "recall_ci95_wilson": [
+            0.7666970498084034,
+            0.9163506178114942
+          ],
+          "fpr": 0.1,
+          "fpr_ci95_wilson": [
+            0.01787574951572113,
+            0.4041563854975721
+          ],
+          "accuracy": 0.8617021276595744,
+          "balanced_accuracy": 0.8785714285714286
+        },
+        "endpoint_terrafm": {
+          "label": "TerraFM endpoint only",
+          "auroc": 0.9249999999999999,
+          "average_precision": 0.9903911462131871,
+          "tp": 73,
+          "fn": 11,
+          "fp": 2,
+          "tn": 8,
+          "recall": 0.8690476190476191,
+          "recall_ci95_wilson": [
+            0.7805373686566762,
+            0.9252785545505514
+          ],
+          "fpr": 0.2,
+          "fpr_ci95_wilson": [
+            0.056680947980693314,
+            0.5098431532792765
+          ],
+          "accuracy": 0.8617021276595744,
+          "balanced_accuracy": 0.8345238095238096
+        },
+        "postclassification": {
+          "label": "TerraFM post-classification",
+          "auroc": 0.9261904761904762,
+          "average_precision": 0.9906016549692408,
+          "tp": 68,
+          "fn": 16,
+          "fp": 1,
+          "tn": 9,
+          "recall": 0.8095238095238095,
+          "recall_ci95_wilson": [
+            0.7127605972340397,
+            0.8792140480365381
+          ],
+          "fpr": 0.1,
+          "fpr_ci95_wilson": [
+            0.01787574951572113,
+            0.4041563854975721
+          ],
+          "accuracy": 0.8191489361702128,
+          "balanced_accuracy": 0.8547619047619047
+        },
+        "bitemporal_terrafm": {
+          "label": "Direct bitemporal TerraFM",
+          "auroc": 0.9440476190476191,
+          "average_precision": 0.9929532955570882,
+          "tp": 76,
+          "fn": 8,
+          "fp": 2,
+          "tn": 8,
+          "recall": 0.9047619047619048,
+          "recall_ci95_wilson": [
+            0.8231718131587017,
+            0.9509488768105155
+          ],
+          "fpr": 0.2,
+          "fpr_ci95_wilson": [
+            0.056680947980693314,
+            0.5098431532792765
+          ],
+          "accuracy": 0.8936170212765957,
+          "balanced_accuracy": 0.8523809523809524
+        },
+        "spectral_linear_endpoint": {
+          "label": "Converged linear spectral endpoint",
+          "auroc": 0.817857142857143,
+          "average_precision": 0.9711831546885287,
+          "tp": 61,
+          "fn": 23,
+          "fp": 3,
+          "tn": 7,
+          "recall": 0.7261904761904762,
+          "recall_ci95_wilson": [
+            0.6225237946430133,
+            0.810073061516255
+          ],
+          "fpr": 0.3,
+          "fpr_ci95_wilson": [
+            0.10778928748621183,
+            0.6032267800204347
+          ],
+          "accuracy": 0.723404255319149,
+          "balanced_accuracy": 0.7130952380952381
+        },
+        "spectral_linear_joint": {
+          "label": "Converged linear spectral endpoint \u00d7 change",
+          "auroc": 0.8511904761904762,
+          "average_precision": 0.9792162272194129,
+          "tp": 68,
+          "fn": 16,
+          "fp": 3,
+          "tn": 7,
+          "recall": 0.8095238095238095,
+          "recall_ci95_wilson": [
+            0.7127605972340397,
+            0.8792140480365381
+          ],
+          "fpr": 0.3,
+          "fpr_ci95_wilson": [
+            0.10778928748621183,
+            0.6032267800204347
+          ],
+          "accuracy": 0.7978723404255319,
+          "balanced_accuracy": 0.7547619047619047
+        },
+        "spectral_forest_bitemporal": {
+          "label": "Bitemporal spectral random forest",
+          "auroc": 0.8738095238095238,
+          "average_precision": 0.9793719798607929,
+          "tp": 72,
+          "fn": 12,
+          "fp": 2,
+          "tn": 8,
+          "recall": 0.8571428571428571,
+          "recall_ci95_wilson": [
+            0.7666970498084034,
+            0.9163506178114942
+          ],
+          "fpr": 0.2,
+          "fpr_ci95_wilson": [
+            0.056680947980693314,
+            0.5098431532792765
+          ],
+          "accuracy": 0.851063829787234,
+          "balanced_accuracy": 0.8285714285714286
+        },
+        "change_original": {
+          "label": "Inherited change head",
+          "auroc": 0.8785714285714286,
+          "average_precision": 0.9845644095966944,
+          "tp": 29,
+          "fn": 55,
+          "fp": 0,
+          "tn": 10,
+          "recall": 0.34523809523809523,
+          "recall_ci95_wilson": [
+            0.2523486284686916,
+            0.45166404889601935
+          ],
+          "fpr": 0.0,
+          "fpr_ci95_wilson": [
+            -2.7755575615628914e-17,
+            0.2775401687666166
+          ],
+          "accuracy": 0.4148936170212766,
+          "balanced_accuracy": 0.6726190476190477
+        },
+        "optical_index": {
+          "label": "Optical-index change",
+          "auroc": 0.8720238095238095,
+          "average_precision": 0.9803928372274354,
+          "tp": 46,
+          "fn": 38,
+          "fp": 1,
+          "tn": 9,
+          "recall": 0.5476190476190477,
+          "recall_ci95_wilson": [
+            0.44142846686988807,
+            0.6496445554794317
+          ],
+          "fpr": 0.1,
+          "fpr_ci95_wilson": [
+            0.01787574951572113,
+            0.4041563854975721
+          ],
+          "accuracy": 0.5851063829787234,
+          "balanced_accuracy": 0.7238095238095238
+        }
+      },
+      "block_bootstrap": {
+        "methods": {
+          "joint_original": {
+            "ci95": [
+              0.8312900496615804,
+              0.9707794031810887
+            ],
+            "valid_draws": 4000
+          },
+          "endpoint_terrafm": {
+            "ci95": [
+              0.839702818627451,
+              0.9867425383351589
+            ],
+            "valid_draws": 4000
+          },
+          "postclassification": {
+            "ci95": [
+              0.8428003702757916,
+              0.986608630952381
+            ],
+            "valid_draws": 4000
+          },
+          "bitemporal_terrafm": {
+            "ci95": [
+              0.8720238095238095,
+              0.992579193293479
+            ],
+            "valid_draws": 4000
+          },
+          "spectral_linear_endpoint": {
+            "ci95": [
+              0.6478250738279808,
+              0.9501915708812261
+            ],
+            "valid_draws": 4000
+          },
+          "spectral_linear_joint": {
+            "ci95": [
+              0.7189586183310535,
+              0.9563081535711024
+            ],
+            "valid_draws": 4000
+          },
+          "spectral_forest_bitemporal": {
+            "ci95": [
+              0.7198478980858498,
+              0.9812678062678063
+            ],
+            "valid_draws": 4000
+          },
+          "change_original": {
+            "ci95": [
+              0.775601534667032,
+              0.9598416313336972
+            ],
+            "valid_draws": 4000
+          },
+          "optical_index": {
+            "ci95": [
+              0.7245517065030147,
+              0.9672651397515527
+            ],
+            "valid_draws": 4000
+          }
+        },
+        "contrasts": {
+          "joint_original_minus_change_original": {
+            "ci95": [
+              -0.010459236326109355,
+              0.09302583406383753
+            ],
+            "valid_draws": 4000
+          },
+          "endpoint_terrafm_minus_joint_original": {
+            "ci95": [
+              -0.04946036407412808,
+              0.07981104651162786
+            ],
+            "valid_draws": 4000
+          },
+          "endpoint_terrafm_minus_spectral_linear_endpoint": {
+            "ci95": [
+              -0.00926215277777771,
+              0.24225871028196622
+            ],
+            "valid_draws": 4000
+          },
+          "bitemporal_terrafm_minus_spectral_forest_bitemporal": {
+            "ci95": [
+              -0.020005617977528103,
+              0.17357487420948162
+            ],
+            "valid_draws": 4000
+          },
+          "postclassification_minus_spectral_forest_bitemporal": {
+            "ci95": [
+              -0.05148011982570799,
+              0.1657151405798159
+            ],
+            "valid_draws": 4000
+          }
+        },
+        "unit": "original 10 km block",
+        "iterations": 4000
+      }
+    },
+    "para_loss_endpoints": {
+      "n": 74,
+      "positive_n": 46,
+      "negative_n": 28,
+      "methods": {
+        "joint_original": {
+          "label": "TerraFM endpoint \u00d7 inherited change",
+          "auroc": 0.8346273291925466,
+          "average_precision": 0.9221252761785967,
+          "tp": 35,
+          "fn": 11,
+          "fp": 3,
+          "tn": 25,
+          "recall": 0.7608695652173914,
+          "recall_ci95_wilson": [
+            0.6206458383088198,
+            0.860879634388686
+          ],
+          "fpr": 0.10714285714285714,
+          "fpr_ci95_wilson": [
+            0.03711769205479949,
+            0.2719622536765708
+          ],
+          "accuracy": 0.8108108108108109,
+          "balanced_accuracy": 0.8268633540372671
+        },
+        "endpoint_terrafm": {
+          "label": "TerraFM endpoint only",
+          "auroc": 0.9433229813664596,
+          "average_precision": 0.9655885371437007,
+          "tp": 37,
+          "fn": 9,
+          "fp": 2,
+          "tn": 26,
+          "recall": 0.8043478260869565,
+          "recall_ci95_wilson": [
+            0.668284622588308,
+            0.893495095558782
+          ],
+          "fpr": 0.07142857142857142,
+          "fpr_ci95_wilson": [
+            0.019811647447770794,
+            0.2264573842591786
+          ],
+          "accuracy": 0.8513513513513513,
+          "balanced_accuracy": 0.8664596273291926
+        },
+        "postclassification": {
+          "label": "TerraFM post-classification",
+          "auroc": 0.9472049689440993,
+          "average_precision": 0.9681354679983127,
+          "tp": 34,
+          "fn": 12,
+          "fp": 1,
+          "tn": 27,
+          "recall": 0.7391304347826086,
+          "recall_ci95_wilson": [
+            0.5974057019172069,
+            0.8439926480555066
+          ],
+          "fpr": 0.03571428571428571,
+          "fpr_ci95_wilson": [
+            0.00633235649754188,
+            0.17712576118498663
+          ],
+          "accuracy": 0.8243243243243243,
+          "balanced_accuracy": 0.8517080745341614
+        },
+        "bitemporal_terrafm": {
+          "label": "Direct bitemporal TerraFM",
+          "auroc": 0.9409937888198758,
+          "average_precision": 0.9662715950910459,
+          "tp": 38,
+          "fn": 8,
+          "fp": 3,
+          "tn": 25,
+          "recall": 0.8260869565217391,
+          "recall_ci95_wilson": [
+            0.6927636765607748,
+            0.9091431643111074
+          ],
+          "fpr": 0.10714285714285714,
+          "fpr_ci95_wilson": [
+            0.03711769205479949,
+            0.2719622536765708
+          ],
+          "accuracy": 0.8513513513513513,
+          "balanced_accuracy": 0.859472049689441
+        },
+        "spectral_linear_endpoint": {
+          "label": "Converged linear spectral endpoint",
+          "auroc": 0.860248447204969,
+          "average_precision": 0.8648781194300821,
+          "tp": 29,
+          "fn": 17,
+          "fp": 4,
+          "tn": 24,
+          "recall": 0.6304347826086957,
+          "recall_ci95_wilson": [
+            0.48599833149184785,
+            0.7547644048569049
+          ],
+          "fpr": 0.14285714285714285,
+          "fpr_ci95_wilson": [
+            0.056989129307017855,
+            0.31490173044877334
+          ],
+          "accuracy": 0.7162162162162162,
+          "balanced_accuracy": 0.7437888198757765
+        },
+        "spectral_linear_joint": {
+          "label": "Converged linear spectral endpoint \u00d7 change",
+          "auroc": 0.7996894409937888,
+          "average_precision": 0.8905124135088394,
+          "tp": 32,
+          "fn": 14,
+          "fp": 4,
+          "tn": 24,
+          "recall": 0.6956521739130435,
+          "recall_ci95_wilson": [
+            0.5519408125976183,
+            0.8092032919255109
+          ],
+          "fpr": 0.14285714285714285,
+          "fpr_ci95_wilson": [
+            0.056989129307017855,
+            0.31490173044877334
+          ],
+          "accuracy": 0.7567567567567568,
+          "balanced_accuracy": 0.7763975155279503
+        },
+        "spectral_forest_bitemporal": {
+          "label": "Bitemporal spectral random forest",
+          "auroc": 0.9130434782608695,
+          "average_precision": 0.9246813687725023,
+          "tp": 36,
+          "fn": 10,
+          "fp": 2,
+          "tn": 26,
+          "recall": 0.782608695652174,
+          "recall_ci95_wilson": [
+            0.6442603416081054,
+            0.8773922538141925
+          ],
+          "fpr": 0.07142857142857142,
+          "fpr_ci95_wilson": [
+            0.019811647447770794,
+            0.2264573842591786
+          ],
+          "accuracy": 0.8378378378378378,
+          "balanced_accuracy": 0.8555900621118012
+        },
+        "change_original": {
+          "label": "Inherited change head",
+          "auroc": 0.5900621118012422,
+          "average_precision": 0.7010507103513784,
+          "tp": 8,
+          "fn": 38,
+          "fp": 2,
+          "tn": 26,
+          "recall": 0.17391304347826086,
+          "recall_ci95_wilson": [
+            0.09085683568889254,
+            0.3072363234392253
+          ],
+          "fpr": 0.07142857142857142,
+          "fpr_ci95_wilson": [
+            0.019811647447770794,
+            0.2264573842591786
+          ],
+          "accuracy": 0.4594594594594595,
+          "balanced_accuracy": 0.5512422360248447
+        },
+        "optical_index": {
+          "label": "Optical-index change",
+          "auroc": 0.6704192546583851,
+          "average_precision": 0.742693587186458,
+          "tp": 18,
+          "fn": 28,
+          "fp": 4,
+          "tn": 24,
+          "recall": 0.391304347826087,
+          "recall_ci95_wilson": [
+            0.2639302235524884,
+            0.5354341628235508
+          ],
+          "fpr": 0.14285714285714285,
+          "fpr_ci95_wilson": [
+            0.056989129307017855,
+            0.31490173044877334
+          ],
+          "accuracy": 0.5675675675675675,
+          "balanced_accuracy": 0.6242236024844721
+        }
+      },
+      "block_bootstrap": {
+        "methods": {
+          "joint_original": {
+            "ci95": [
+              0.7307608695652174,
+              0.918479267310789
+            ],
+            "valid_draws": 4000
+          },
+          "endpoint_terrafm": {
+            "ci95": [
+              0.8834746376811594,
+              0.9833333333333334
+            ],
+            "valid_draws": 4000
+          },
+          "postclassification": {
+            "ci95": [
+              0.8883331938749895,
+              0.985001517273576
+            ],
+            "valid_draws": 4000
+          },
+          "bitemporal_terrafm": {
+            "ci95": [
+              0.8776151040126196,
+              0.9859943977591036
+            ],
+            "valid_draws": 4000
+          },
+          "spectral_linear_endpoint": {
+            "ci95": [
+              0.7342511079329768,
+              0.9509048494397759
+            ],
+            "valid_draws": 4000
+          },
+          "spectral_linear_joint": {
+            "ci95": [
+              0.6870820532514081,
+              0.8937512112403101
+            ],
+            "valid_draws": 4000
+          },
+          "spectral_forest_bitemporal": {
+            "ci95": [
+              0.8208997771423766,
+              0.9753196736141265
+            ],
+            "valid_draws": 4000
+          },
+          "change_original": {
+            "ci95": [
+              0.43916244553376904,
+              0.7318391818936878
+            ],
+            "valid_draws": 4000
+          },
+          "optical_index": {
+            "ci95": [
+              0.533882068452381,
+              0.7968809517842823
+            ],
+            "valid_draws": 4000
+          }
+        },
+        "contrasts": {
+          "joint_original_minus_change_original": {
+            "ci95": [
+              0.13085493201111864,
+              0.37056037380173035
+            ],
+            "valid_draws": 4000
+          },
+          "endpoint_terrafm_minus_joint_original": {
+            "ci95": [
+              0.03703413989709343,
+              0.1947711680416848
+            ],
+            "valid_draws": 4000
+          },
+          "endpoint_terrafm_minus_spectral_linear_endpoint": {
+            "ci95": [
+              0.0071411725067385195,
+              0.18376241134751775
+            ],
+            "valid_draws": 4000
+          },
+          "bitemporal_terrafm_minus_spectral_forest_bitemporal": {
+            "ci95": [
+              -0.036750524888822696,
+              0.0963302411873841
+            ],
+            "valid_draws": 4000
+          },
+          "postclassification_minus_spectral_forest_bitemporal": {
+            "ci95": [
+              -0.027356112555002452,
+              0.1004570069875776
+            ],
+            "valid_draws": 4000
+          }
+        },
+        "unit": "original 10 km block",
+        "iterations": 4000
+      }
+    },
+    "matogrosso_loss_endpoints": {
+      "n": 39,
+      "positive_n": 38,
+      "negative_n": 1,
+      "methods": {
+        "joint_original": {
+          "label": "TerraFM endpoint \u00d7 inherited change",
+          "auroc": 1.0,
+          "average_precision": 0.9999999999999998,
+          "tp": 37,
+          "fn": 1,
+          "fp": 0,
+          "tn": 1,
+          "recall": 0.9736842105263158,
+          "recall_ci95_wilson": [
+            0.8650482156319974,
+            0.9953395324464698
+          ],
+          "fpr": 0.0,
+          "fpr_ci95_wilson": [
+            0.0,
+            0.7934567085261071
+          ],
+          "accuracy": 0.9743589743589743,
+          "balanced_accuracy": 0.986842105263158
+        },
+        "endpoint_terrafm": {
+          "label": "TerraFM endpoint only",
+          "auroc": 1.0,
+          "average_precision": 0.9999999999999998,
+          "tp": 36,
+          "fn": 2,
+          "fp": 0,
+          "tn": 1,
+          "recall": 0.9473684210526315,
+          "recall_ci95_wilson": [
+            0.8271423311893115,
+            0.9854460975514631
+          ],
+          "fpr": 0.0,
+          "fpr_ci95_wilson": [
+            0.0,
+            0.7934567085261071
+          ],
+          "accuracy": 0.9487179487179487,
+          "balanced_accuracy": 0.9736842105263157
+        },
+        "postclassification": {
+          "label": "TerraFM post-classification",
+          "auroc": 1.0,
+          "average_precision": 0.9999999999999998,
+          "tp": 34,
+          "fn": 4,
+          "fp": 0,
+          "tn": 1,
+          "recall": 0.8947368421052632,
+          "recall_ci95_wilson": [
+            0.7586916879980553,
+            0.9582981020673341
+          ],
+          "fpr": 0.0,
+          "fpr_ci95_wilson": [
+            0.0,
+            0.7934567085261071
+          ],
+          "accuracy": 0.8974358974358975,
+          "balanced_accuracy": 0.9473684210526316
+        },
+        "bitemporal_terrafm": {
+          "label": "Direct bitemporal TerraFM",
+          "auroc": 1.0,
+          "average_precision": 0.9999999999999998,
+          "tp": 38,
+          "fn": 0,
+          "fp": 0,
+          "tn": 1,
+          "recall": 1.0,
+          "recall_ci95_wilson": [
+            0.90818706741616,
+            0.9999999999999999
+          ],
+          "fpr": 0.0,
+          "fpr_ci95_wilson": [
+            0.0,
+            0.7934567085261071
+          ],
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0
+        },
+        "spectral_linear_endpoint": {
+          "label": "Converged linear spectral endpoint",
+          "auroc": 1.0,
+          "average_precision": 0.9999999999999998,
+          "tp": 32,
+          "fn": 6,
+          "fp": 0,
+          "tn": 1,
+          "recall": 0.8421052631578947,
+          "recall_ci95_wilson": [
+            0.6958287736272311,
+            0.9255623777627731
+          ],
+          "fpr": 0.0,
+          "fpr_ci95_wilson": [
+            0.0,
+            0.7934567085261071
+          ],
+          "accuracy": 0.8461538461538461,
+          "balanced_accuracy": 0.9210526315789473
+        },
+        "spectral_linear_joint": {
+          "label": "Converged linear spectral endpoint \u00d7 change",
+          "auroc": 1.0,
+          "average_precision": 0.9999999999999998,
+          "tp": 36,
+          "fn": 2,
+          "fp": 0,
+          "tn": 1,
+          "recall": 0.9473684210526315,
+          "recall_ci95_wilson": [
+            0.8271423311893115,
+            0.9854460975514631
+          ],
+          "fpr": 0.0,
+          "fpr_ci95_wilson": [
+            0.0,
+            0.7934567085261071
+          ],
+          "accuracy": 0.9487179487179487,
+          "balanced_accuracy": 0.9736842105263157
+        },
+        "spectral_forest_bitemporal": {
+          "label": "Bitemporal spectral random forest",
+          "auroc": 0.8421052631578947,
+          "average_precision": 0.9956646101790309,
+          "tp": 36,
+          "fn": 2,
+          "fp": 1,
+          "tn": 0,
+          "recall": 0.9473684210526315,
+          "recall_ci95_wilson": [
+            0.8271423311893115,
+            0.9854460975514631
+          ],
+          "fpr": 1.0,
+          "fpr_ci95_wilson": [
+            0.20654329147389294,
+            1.0
+          ],
+          "accuracy": 0.9230769230769231,
+          "balanced_accuracy": 0.4736842105263157
+        },
+        "change_original": {
+          "label": "Inherited change head",
+          "auroc": 1.0,
+          "average_precision": 0.9999999999999998,
+          "tp": 21,
+          "fn": 17,
+          "fp": 0,
+          "tn": 1,
+          "recall": 0.5526315789473685,
+          "recall_ci95_wilson": [
+            0.3970602917908942,
+            0.6985383468844911
+          ],
+          "fpr": 0.0,
+          "fpr_ci95_wilson": [
+            0.0,
+            0.7934567085261071
+          ],
+          "accuracy": 0.5641025641025641,
+          "balanced_accuracy": 0.7763157894736843
+        },
+        "optical_index": {
+          "label": "Optical-index change",
+          "auroc": 0.9473684210526315,
+          "average_precision": 0.998632715391718,
+          "tp": 28,
+          "fn": 10,
+          "fp": 0,
+          "tn": 1,
+          "recall": 0.7368421052631579,
+          "recall_ci95_wilson": [
+            0.5799084979362465,
+            0.8502853761029869
+          ],
+          "fpr": 0.0,
+          "fpr_ci95_wilson": [
+            0.0,
+            0.7934567085261071
+          ],
+          "accuracy": 0.7435897435897436,
+          "balanced_accuracy": 0.868421052631579
+        }
+      }
+    }
+  },
+  "geography": {
+    "state_only_auroc": 0.7089490968801314,
+    "class_by_state": {
+      "brazil_matogrosso": {
+        "agriculture": 38,
+        "secondary_forest": 1,
+        "stable_forest": 17
+      },
+      "brazil_para": {
+        "agriculture": 46,
+        "mining": 19,
+        "secondary_forest": 9,
+        "stable_forest": 18
+      }
+    }
+  },
+  "mcnemar": [
+    {
+      "first": "joint_original",
+      "second": "spectral_linear_joint",
+      "first_only_correct": 7,
+      "second_only_correct": 2,
+      "exact_two_sided_p": 0.1796875
+    },
+    {
+      "first": "endpoint_terrafm",
+      "second": "spectral_linear_endpoint",
+      "first_only_correct": 17,
+      "second_only_correct": 3,
+      "exact_two_sided_p": 0.0025768280029296875
+    },
+    {
+      "first": "bitemporal_terrafm",
+      "second": "spectral_forest_bitemporal",
+      "first_only_correct": 7,
+      "second_only_correct": 3,
+      "exact_two_sided_p": 0.34375
+    }
+  ],
+  "event_diagnostics": {
+    "mapped_prior_agriculture_fraction_2020": {
+      "agriculture": {
+        "n": 84,
+        "finite_n": 84,
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.0981404958677686
+      },
+      "mining": {
+        "n": 19,
+        "finite_n": 19,
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.0
+      },
+      "secondary_forest": {
+        "n": 10,
+        "finite_n": 10,
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.06288739669421488
+      },
+      "stable_forest": {
+        "n": 35,
+        "finite_n": 35,
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.0
+      }
+    },
+    "mapped_agriculture_transition_fraction": {
+      "agriculture": {
+        "n": 84,
+        "finite_n": 84,
+        "median": 0.5821280991735538,
+        "q25": 0.3981146694214876,
+        "q75": 0.8930785123966942
+      },
+      "mining": {
+        "n": 19,
+        "finite_n": 19,
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.0
+      },
+      "secondary_forest": {
+        "n": 10,
+        "finite_n": 10,
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.00038739669421487604
+      },
+      "stable_forest": {
+        "n": 35,
+        "finite_n": 35,
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.0
+      }
+    },
+    "endpoint_top9_mean_event_fraction": {
+      "agriculture": {
+        "n": 84,
+        "finite_n": 84,
+        "median": 0.9166666865348816,
+        "q25": 0.659722238779068,
+        "q75": 1.0
+      },
+      "mining": {
+        "n": 19,
+        "finite_n": 19,
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.0
+      },
+      "secondary_forest": {
+        "n": 10,
+        "finite_n": 10,
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.0
+      },
+      "stable_forest": {
+        "n": 35,
+        "finite_n": 35,
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.0
+      }
+    },
+    "joint_top9_mean_event_fraction": {
+      "agriculture": {
+        "n": 84,
+        "finite_n": 84,
+        "median": 0.9826388955116272,
+        "q25": 0.8159722089767456,
+        "q75": 1.0
+      },
+      "mining": {
+        "n": 19,
+        "finite_n": 19,
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.0
+      },
+      "secondary_forest": {
+        "n": 10,
+        "finite_n": 10,
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.0
+      },
+      "stable_forest": {
+        "n": 35,
+        "finite_n": 35,
+        "median": 0.0,
+        "q25": 0.0,
+        "q75": 0.0
+      }
+    },
+    "endpoint_score_inside_event": {
+      "agriculture": {
+        "n": 84,
+        "finite_n": 84,
+        "median": 0.9895040094852448,
+        "q25": 0.9489617943763733,
+        "q75": 0.9953075647354126
+      },
+      "mining": {
+        "n": 19,
+        "finite_n": 3,
+        "median": 0.017608845606446266,
+        "q25": 0.011381503194570541,
+        "q75": 0.07757542002946138
+      },
+      "secondary_forest": {
+        "n": 10,
+        "finite_n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null
+      },
+      "stable_forest": {
+        "n": 35,
+        "finite_n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null
+      }
+    },
+    "endpoint_score_outside_event": {
+      "agriculture": {
+        "n": 84,
+        "finite_n": 75,
+        "median": 0.9487107396125793,
+        "q25": 0.780303031206131,
+        "q75": 0.9851668477058411
+      },
+      "mining": {
+        "n": 19,
+        "finite_n": 19,
+        "median": 0.04887515306472778,
+        "q25": 0.037232665345072746,
+        "q75": 0.12472270056605339
+      },
+      "secondary_forest": {
+        "n": 10,
+        "finite_n": 10,
+        "median": 0.18056022375822067,
+        "q25": 0.07283939979970455,
+        "q75": 0.5483539178967476
+      },
+      "stable_forest": {
+        "n": 35,
+        "finite_n": 35,
+        "median": 0.011313075199723244,
+        "q25": 0.004493713844567537,
+        "q75": 0.042934902012348175
+      }
+    }
+  }
+}

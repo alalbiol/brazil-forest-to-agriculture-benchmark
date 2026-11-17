@@ -1,0 +1,36 @@
+{
+  "purpose": "Secondary descriptive comparisons of frozen saved predictions; no model or threshold changed",
+  "bootstrap_units": 103,
+  "iterations": 2000,
+  "seed": 20261001,
+  "comparisons": {
+    "joint_top9_minus_change_top9": {
+      "estimate": 0.19889162561576346,
+      "ci95": [
+        0.099979778629204,
+        0.315699453392468
+      ]
+    },
+    "joint_top9_minus_spectral_joint_top9": {
+      "estimate": 0.03160919540229867,
+      "ci95": [
+        0.006755548034617845,
+        0.06521758715236983
+      ]
+    },
+    "landuse_top9_minus_change_top9": {
+      "estimate": 0.26334154351395733,
+      "ci95": [
+        0.14367634220864262,
+        0.3851873137505322
+      ]
+    },
+    "landuse_top9_minus_spectral_joint_top9": {
+      "estimate": 0.09605911330049255,
+      "ci95": [
+        0.04306331396833515,
+        0.1561423554095967
+      ]
+    }
+  }
+}

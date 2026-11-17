@@ -1,0 +1,15 @@
+{
+  "seed": 20261001,
+  "candidate_points": 198,
+  "sample_windows": 135,
+  "excluded": {
+    "old_pilot_or_test_12km": 8,
+    "another_challenge_window": 40,
+    "original_benchmark_overlap": 15
+  },
+  "min_separation_m": 2640,
+  "training_pilot_exclusion_m": 12000,
+  "point_candidates_sha256": "c9d269b1351f54fa134b58a80efd6926edf6b1a9fdb73518748beea5dc6e6dbc",
+  "sample_sha256": "26109164cc835869ff47815ca4ab2d2c897c891fa0aabaf21708b0dd0cd4ae30",
+  "selection": "Map/alert candidate discovery, before exact reference check or model scores"
+}

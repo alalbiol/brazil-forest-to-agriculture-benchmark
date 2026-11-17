@@ -1,0 +1,20 @@
+{
+  "counts_by_region": {
+    "brazil_matogrosso": {
+      "hard_nonagri_loss": 22,
+      "uncertain": 62
+    },
+    "brazil_para": {
+      "uncertain": 54,
+      "hard_nonagri_loss": 24
+    }
+  },
+  "class_counts": {
+    "mining": 18,
+    "secondary_forest": 28
+  },
+  "reference_sha256": "9d81db26a71dad8c620965ef1d1c2a3972895c0e2f4ac8d6b306abb379a33a1c",
+  "window_metres": 440,
+  "definition": ">=0.5ha 2020 primary forest to 2024 nonagri class overlapping the same 2022/23 MapBiomas alert, <0.2ha mapped agricultural transition",
+  "status": "External EO-product challenge reference, not field truth or EUDR verdict"
+}

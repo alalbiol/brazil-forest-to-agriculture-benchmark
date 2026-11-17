@@ -1,0 +1,6 @@
+method,method_name,agriculture_ap,nonagriculture_ap
+joint_top9,TerraFM joint,0.9700929808624065,0.6436193595931564
+landuse_top9,TerraFM endpoint only,0.9871959661260801,0.9191830114724259
+spectral_joint_top9,Spectral joint,0.9568004162629629,0.6076283936730581
+change_top9,Existing change head,0.8703026989962268,0.46043337536414825
+optical_fraction,Optical index change,0.8778010750114764,0.49101035915012103

@@ -1,0 +1,45 @@
+{
+  "old_head_windows": 500,
+  "new_accepted_chips": 732,
+  "minimum_centre_distance_m": 253779.866561808,
+  "within_2km": [],
+  "within_12km": [],
+  "closest": [
+    {
+      "window_id": "brazil_para__last_agriculture__713253",
+      "split": "test",
+      "distance_m": 253779.866561808,
+      "nearest_old_window": "W00435",
+      "old_region": "brazil_matopiba"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__607293",
+      "split": "test",
+      "distance_m": 319231.00551088987,
+      "nearest_old_window": "W00435",
+      "old_region": "brazil_matopiba"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__716764",
+      "split": "validation",
+      "distance_m": 322507.21049643436,
+      "nearest_old_window": "W00435",
+      "old_region": "brazil_matopiba"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__707432",
+      "split": "train",
+      "distance_m": 345236.6448778457,
+      "nearest_old_window": "W00435",
+      "old_region": "brazil_matopiba"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__618501",
+      "split": "test",
+      "distance_m": 363210.60718601226,
+      "nearest_old_window": "W00435",
+      "old_region": "brazil_matopiba"
+    }
+  ],
+  "note": "Old coordinates are 1.32 km parent-window centres; outer chip centres can differ by about 622 m."
+}

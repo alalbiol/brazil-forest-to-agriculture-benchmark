@@ -1,0 +1,67 @@
+{
+  "seed": 20260930,
+  "window_metres": 1320.0,
+  "sample_sha256": "8cae950d023847e0233b3aff75e8d117889bf9376752a3907955a170710a2b44",
+  "mapbiomas_sha256": "9032a9324feb8e57860c690036efe5c8572785ed211b94e4272c884ee3a777d7",
+  "alert_years": [
+    "2022",
+    "2023"
+  ],
+  "regions": [
+    {
+      "region": "brazil_matogrosso",
+      "bounds_wgs84": [
+        -63.0,
+        -14.0,
+        -55.0,
+        -9.0
+      ],
+      "grid_rows": 421,
+      "grid_cols": 661,
+      "grid_dx_deg": 0.012100631256632747,
+      "grid_dy_deg": 0.011857707509881422,
+      "alert_polygons_used": 5568,
+      "excluded_cells": 10577,
+      "strata": {
+        "alert_2022_2023": {
+          "frame_cells": 9922,
+          "drawn": 100,
+          "inclusion_probability": 0.010078613182826043
+        },
+        "background": {
+          "frame_cells": 257782,
+          "drawn": 50,
+          "inclusion_probability": 0.0001939623402720128
+        }
+      }
+    },
+    {
+      "region": "brazil_para",
+      "bounds_wgs84": [
+        -54.0,
+        -8.0,
+        -48.0,
+        -3.0
+      ],
+      "grid_rows": 421,
+      "grid_cols": 503,
+      "grid_dx_deg": 0.011912550529460015,
+      "grid_dy_deg": 0.011857707509881422,
+      "alert_polygons_used": 15860,
+      "excluded_cells": 9249,
+      "strata": {
+        "alert_2022_2023": {
+          "frame_cells": 19466,
+          "drawn": 100,
+          "inclusion_probability": 0.005137162231583273
+        },
+        "background": {
+          "frame_cells": 183048,
+          "drawn": 50,
+          "inclusion_probability": 0.0002731523971854377
+        }
+      }
+    }
+  ],
+  "selection_note": "Alert masks use all_touched rasterization; no model scores or TerraClass labels selected cells."
+}

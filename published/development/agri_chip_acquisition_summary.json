@@ -1,0 +1,16 @@
+{
+  "reference_sha256": "f1e1e1ddaa5f5e1698db70968f69f0ec572688c855df2b9926fb55f959987f34",
+  "reference_parts_mode": false,
+  "dates_requested": 318,
+  "dates_ok": 318,
+  "dates_error": 0,
+  "s1_asset": "COPERNICUS/S1_GRD",
+  "s2_asset": "COPERNICUS/S2_SR_HARMONIZED",
+  "years": [
+    2020,
+    2024
+  ],
+  "grid_cells": 44,
+  "window_metres": 440,
+  "status": "Acquisition only; no model thresholds were selected here"
+}

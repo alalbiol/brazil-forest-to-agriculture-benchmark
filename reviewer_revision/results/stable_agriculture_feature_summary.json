@@ -1,0 +1,810 @@
+{
+  "device": "cuda",
+  "n": 100,
+  "ok": 100,
+  "errors": 0,
+  "elapsed_seconds": 5.090437311679125,
+  "backbone_sha256": "5a7c585e66752364360d54f21c6c4197b87cc85eec670c11650012d86c8d7bdc",
+  "outcomes": [
+    {
+      "window_id": "brazil_para__stable_agriculture__001",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__002",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__003",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__004",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__005",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__006",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__007",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__008",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__009",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__010",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__011",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__012",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__013",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__014",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__015",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__016",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__017",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__018",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__019",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__020",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__021",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__022",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__023",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__024",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__025",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__026",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__027",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__028",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__029",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__030",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__031",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__032",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__033",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__034",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__035",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__036",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__037",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__038",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__039",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__040",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__041",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__042",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__043",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__044",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__045",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__046",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__047",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__048",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__049",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_para__stable_agriculture__050",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__001",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__002",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__003",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__004",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__005",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__006",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__007",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__008",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__009",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__010",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__011",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__012",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__013",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__014",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__015",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__016",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__017",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__018",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__019",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__020",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__021",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__022",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__023",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__024",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__025",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__026",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__027",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__028",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__029",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__030",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__031",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__032",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__033",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__034",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__035",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__036",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__037",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__038",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__039",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__040",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__041",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__042",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__043",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__044",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__045",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__046",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__047",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__048",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__049",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    },
+    {
+      "window_id": "brazil_matogrosso__stable_agriculture__050",
+      "status": "ok",
+      "s1_zero_fraction_2020": 0.0,
+      "s2_zero_fraction_2020": 0.0,
+      "s1_zero_fraction_2024": 0.0,
+      "s2_zero_fraction_2024": 0.0
+    }
+  ]
+}

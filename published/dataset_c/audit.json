@@ -1,0 +1,29 @@
+{
+  "selected": 1077,
+  "accepted": 732,
+  "features": 732,
+  "minimum_different_split_centres_m": 2137.379558972786,
+  "all_alerts_and_blocks_single_split": true,
+  "old_locations_excluded": true,
+  "accepted_counts": {
+    "test/agriculture": 84,
+    "test/secondary_forest": 10,
+    "test/stable_forest": 35,
+    "test/mining": 19,
+    "train/agriculture": 241,
+    "train/mining": 62,
+    "train/secondary_forest": 41,
+    "train/stable_forest": 104,
+    "validation/agriculture": 72,
+    "validation/secondary_forest": 14,
+    "validation/stable_forest": 32,
+    "validation/mining": 18
+  },
+  "valid_tokens_by_class": [
+    65071,
+    6945,
+    54391,
+    6852
+  ],
+  "status": "passed"
+}

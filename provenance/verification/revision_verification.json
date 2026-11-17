@@ -1,0 +1,260 @@
+{
+  "status": "passed",
+  "scope": "all nine revised methods and exploratory spectral post-classification",
+  "manifest_sha256": "f461febf5c482433a0c7e440ffdd26f8561813b5f4e01a4b948a3309bc77d4bb",
+  "verified_files": 2720,
+  "maximum_score_errors": {
+    "validation": {
+      "joint_original": 0.0,
+      "endpoint_terrafm": 0.0,
+      "postclassification": 0.0,
+      "bitemporal_terrafm": 0.0,
+      "spectral_linear_endpoint": 0.0,
+      "spectral_linear_joint": 0.0,
+      "spectral_forest_bitemporal": 2.220446049250313e-16,
+      "change_original": 0.0,
+      "optical_index": 0.0
+    },
+    "test": {
+      "joint_original": 0.0,
+      "endpoint_terrafm": 0.0,
+      "postclassification": 0.0,
+      "bitemporal_terrafm": 0.0,
+      "spectral_linear_endpoint": 0.0,
+      "spectral_linear_joint": 0.0,
+      "spectral_forest_bitemporal": 2.220446049250313e-16,
+      "change_original": 0.0,
+      "optical_index": 0.0
+    },
+    "stable": {
+      "joint_original": 0.0,
+      "endpoint_terrafm": 0.0,
+      "postclassification": 0.0,
+      "bitemporal_terrafm": 0.0,
+      "spectral_linear_endpoint": 0.0,
+      "spectral_linear_joint": 0.0,
+      "spectral_forest_bitemporal": 2.220446049250313e-16,
+      "change_original": 0.0,
+      "optical_index": 0.0
+    },
+    "spectral_PC_validation": {
+      "spectral_postclassification": 0.0
+    },
+    "spectral_PC_test": {
+      "spectral_postclassification": 0.0
+    },
+    "spectral_PC_stable": {
+      "spectral_postclassification": 0.0
+    }
+  },
+  "results": {
+    "loss_endpoints": {
+      "n": 113,
+      "positive_n": 84,
+      "negative_n": 29,
+      "methods": {
+        "joint_original": {
+          "label": "TerraFM endpoint \u00d7 inherited change",
+          "auroc": 0.8994252873563218,
+          "average_precision": 0.9700929808624065,
+          "tp": 72,
+          "fn": 12,
+          "fp": 3,
+          "tn": 26,
+          "recall": 0.8571428571428571,
+          "recall_ci95_wilson": [
+            0.7666970498084034,
+            0.9163506178114942
+          ],
+          "fpr": 0.10344827586206896,
+          "fpr_ci95_wilson": [
+            0.035814240381301043,
+            0.26385447247069155
+          ],
+          "accuracy": 0.8672566371681416,
+          "balanced_accuracy": 0.8768472906403941
+        },
+        "endpoint_terrafm": {
+          "label": "TerraFM endpoint only",
+          "auroc": 0.9638752052545156,
+          "average_precision": 0.9871959661260801,
+          "tp": 73,
+          "fn": 11,
+          "fp": 2,
+          "tn": 27,
+          "recall": 0.8690476190476191,
+          "recall_ci95_wilson": [
+            0.7805373686566762,
+            0.9252785545505514
+          ],
+          "fpr": 0.06896551724137931,
+          "fpr_ci95_wilson": [
+            0.019120864097994433,
+            0.21964947595851925
+          ],
+          "accuracy": 0.8849557522123894,
+          "balanced_accuracy": 0.9000410509031199
+        },
+        "postclassification": {
+          "label": "TerraFM post-classification",
+          "auroc": 0.963464696223317,
+          "average_precision": 0.987157227828974,
+          "tp": 68,
+          "fn": 16,
+          "fp": 1,
+          "tn": 28,
+          "recall": 0.8095238095238095,
+          "recall_ci95_wilson": [
+            0.7127605972340397,
+            0.8792140480365381
+          ],
+          "fpr": 0.034482758620689655,
+          "fpr_ci95_wilson": [
+            0.006113056614032261,
+            0.1717589106470025
+          ],
+          "accuracy": 0.8495575221238938,
+          "balanced_accuracy": 0.8875205254515599
+        },
+        "bitemporal_terrafm": {
+          "label": "Direct bitemporal TerraFM",
+          "auroc": 0.9663382594417078,
+          "average_precision": 0.98876029070421,
+          "tp": 76,
+          "fn": 8,
+          "fp": 3,
+          "tn": 26,
+          "recall": 0.9047619047619048,
+          "recall_ci95_wilson": [
+            0.8231718131587017,
+            0.9509488768105155
+          ],
+          "fpr": 0.10344827586206896,
+          "fpr_ci95_wilson": [
+            0.035814240381301043,
+            0.26385447247069155
+          ],
+          "accuracy": 0.9026548672566371,
+          "balanced_accuracy": 0.9006568144499179
+        },
+        "spectral_linear_endpoint": {
+          "label": "Linear spectral endpoint (500-epoch cap)",
+          "auroc": 0.8977832512315271,
+          "average_precision": 0.9529899362071849,
+          "tp": 61,
+          "fn": 23,
+          "fp": 4,
+          "tn": 25,
+          "recall": 0.7261904761904762,
+          "recall_ci95_wilson": [
+            0.6225237946430133,
+            0.810073061516255
+          ],
+          "fpr": 0.13793103448275862,
+          "fpr_ci95_wilson": [
+            0.05497350852047822,
+            0.30559357712699325
+          ],
+          "accuracy": 0.7610619469026548,
+          "balanced_accuracy": 0.7941297208538588
+        },
+        "spectral_linear_joint": {
+          "label": "Linear spectral endpoint \u00d7 change (500-epoch cap)",
+          "auroc": 0.8715106732348111,
+          "average_precision": 0.9576033452760817,
+          "tp": 68,
+          "fn": 16,
+          "fp": 4,
+          "tn": 25,
+          "recall": 0.8095238095238095,
+          "recall_ci95_wilson": [
+            0.7127605972340397,
+            0.8792140480365381
+          ],
+          "fpr": 0.13793103448275862,
+          "fpr_ci95_wilson": [
+            0.05497350852047822,
+            0.30559357712699325
+          ],
+          "accuracy": 0.8230088495575221,
+          "balanced_accuracy": 0.8357963875205254
+        },
+        "spectral_forest_bitemporal": {
+          "label": "Bitemporal spectral random forest",
+          "auroc": 0.9343185550082101,
+          "average_precision": 0.9717055622603199,
+          "tp": 72,
+          "fn": 12,
+          "fp": 3,
+          "tn": 26,
+          "recall": 0.8571428571428571,
+          "recall_ci95_wilson": [
+            0.7666970498084034,
+            0.9163506178114942
+          ],
+          "fpr": 0.10344827586206896,
+          "fpr_ci95_wilson": [
+            0.035814240381301043,
+            0.26385447247069155
+          ],
+          "accuracy": 0.8672566371681416,
+          "balanced_accuracy": 0.8768472906403941
+        },
+        "change_original": {
+          "label": "Inherited change head",
+          "auroc": 0.7005336617405583,
+          "average_precision": 0.8703026989962268,
+          "tp": 29,
+          "fn": 55,
+          "fp": 2,
+          "tn": 27,
+          "recall": 0.34523809523809523,
+          "recall_ci95_wilson": [
+            0.2523486284686916,
+            0.45166404889601935
+          ],
+          "fpr": 0.06896551724137931,
+          "fpr_ci95_wilson": [
+            0.019120864097994433,
+            0.21964947595851925
+          ],
+          "accuracy": 0.49557522123893805,
+          "balanced_accuracy": 0.6381362889983581
+        },
+        "optical_index": {
+          "label": "Optical-index change",
+          "auroc": 0.7584154351395731,
+          "average_precision": 0.8778010750114764,
+          "tp": 46,
+          "fn": 38,
+          "fp": 4,
+          "tn": 25,
+          "recall": 0.5476190476190477,
+          "recall_ci95_wilson": [
+            0.44142846686988807,
+            0.6496445554794317
+          ],
+          "fpr": 0.13793103448275862,
+          "fpr_ci95_wilson": [
+            0.05497350852047822,
+            0.30559357712699325
+          ],
+          "accuracy": 0.6283185840707964,
+          "balanced_accuracy": 0.7048440065681445
+        }
+      }
+    },
+    "stable_flags": {
+      "joint_original": 22,
+      "endpoint_terrafm": 97,
+      "postclassification": 3,
+      "bitemporal_terrafm": 93,
+      "spectral_linear_endpoint": 97,
+      "spectral_linear_joint": 11,
+      "spectral_forest_bitemporal": 14,
+      "change_original": 0,
+      "optical_index": 6
+    }
+  },
+  "added_paired_bootstrap": "passed"
+}

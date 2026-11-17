@@ -1,0 +1,453 @@
+{
+  "scope": "440m chips with >=0.5ha alert-supported primary forest transition to mapped agri versus mapped nonagri endpoints",
+  "reference_counts": {
+    "agri_loss": 159,
+    "hard_nonagri_loss": 46
+  },
+  "nonagri_subclasses": {
+    "mining": 18,
+    "secondary_forest": 28
+  },
+  "agri_subclasses": {
+    "crop": 4,
+    "pasture": 155
+  },
+  "endpoint_discrimination": {
+    "mining": {
+      "overall": {
+        "agri_n": 159,
+        "nonagri_n": 18,
+        "head_token_top9": {
+          "auroc": 0.5049,
+          "ci95": [
+            0.376,
+            0.6276
+          ]
+        },
+        "optical_fraction": {
+          "auroc": 0.5575,
+          "ci95": [
+            0.4327,
+            0.6728
+          ]
+        }
+      },
+      "brazil_matogrosso": {
+        "agri_n": 80,
+        "nonagri_n": 4,
+        "head_token_top9": {
+          "auroc": 0.6281,
+          "ci95": [
+            0.278,
+            0.8688
+          ]
+        },
+        "optical_fraction": {
+          "auroc": 0.5875,
+          "ci95": [
+            0.3688,
+            0.8063
+          ]
+        }
+      },
+      "brazil_para": {
+        "agri_n": 79,
+        "nonagri_n": 14,
+        "head_token_top9": {
+          "auroc": 0.3942,
+          "ci95": [
+            0.2405,
+            0.5543
+          ]
+        },
+        "optical_fraction": {
+          "auroc": 0.5375,
+          "ci95": [
+            0.3888,
+            0.6808
+          ]
+        }
+      }
+    },
+    "secondary_forest": {
+      "overall": {
+        "agri_n": 159,
+        "nonagri_n": 28,
+        "head_token_top9": {
+          "auroc": 0.931,
+          "ci95": [
+            0.8715,
+            0.9748
+          ]
+        },
+        "optical_fraction": {
+          "auroc": 0.9273,
+          "ci95": [
+            0.8786,
+            0.9678
+          ]
+        }
+      },
+      "brazil_matogrosso": {
+        "agri_n": 80,
+        "nonagri_n": 18,
+        "head_token_top9": {
+          "auroc": 0.9542,
+          "ci95": [
+            0.909,
+            0.9896
+          ]
+        },
+        "optical_fraction": {
+          "auroc": 0.9476,
+          "ci95": [
+            0.899,
+            0.9847
+          ]
+        }
+      },
+      "brazil_para": {
+        "agri_n": 79,
+        "nonagri_n": 10,
+        "head_token_top9": {
+          "auroc": 0.8671,
+          "ci95": [
+            0.6885,
+            0.9798
+          ]
+        },
+        "optical_fraction": {
+          "auroc": 0.8829,
+          "ci95": [
+            0.7614,
+            0.9715
+          ]
+        }
+      }
+    }
+  },
+  "metrics": {
+    "overall": {
+      "n": 205,
+      "counts": {
+        "agri_loss": 159,
+        "hard_nonagri_loss": 46
+      },
+      "ranking": {
+        "head_token_top9": {
+          "auroc": 0.7643,
+          "ci95": [
+            0.6768,
+            0.8474
+          ],
+          "median_agri": 0.999553,
+          "median_nonagri": 0.284716
+        },
+        "head_token_max": {
+          "auroc": 0.7538,
+          "ci95": [
+            0.6603,
+            0.8445
+          ],
+          "median_agri": 0.999894,
+          "median_nonagri": 0.666365
+        },
+        "terrafm_forest_agri_score": {
+          "auroc": 0.5634,
+          "ci95": [
+            0.4565,
+            0.6649
+          ],
+          "median_agri": 0.32324,
+          "median_nonagri": 0.206514
+        },
+        "terrafm_delta_score": {
+          "auroc": 0.6697,
+          "ci95": [
+            0.5787,
+            0.7498
+          ],
+          "median_agri": 0.195553,
+          "median_nonagri": 0.019263
+        },
+        "optical_fraction": {
+          "auroc": 0.7826,
+          "ci95": [
+            0.7037,
+            0.8564
+          ],
+          "median_agri": 0.521694,
+          "median_nonagri": 0.055527
+        },
+        "optical_radar_combined": {
+          "auroc": 0.7656,
+          "ci95": [
+            0.682,
+            0.8409
+          ],
+          "median_agri": 0.421217,
+          "median_nonagri": 0.025971
+        }
+      },
+      "fixed_rules": {
+        "terrafm_chip_rule": {
+          "agri_loss": {
+            "flagged": 31,
+            "n": 159,
+            "rate": 0.195,
+            "ci95": [
+              0.1409,
+              0.2634
+            ]
+          },
+          "hard_nonagri_loss": {
+            "flagged": 5,
+            "n": 46,
+            "rate": 0.1087,
+            "ci95": [
+              0.0473,
+              0.2304
+            ]
+          }
+        },
+        "head_transferred_9tile_threshold": {
+          "agri_loss": {
+            "flagged": 81,
+            "n": 159,
+            "rate": 0.5094,
+            "ci95": [
+              0.4324,
+              0.586
+            ]
+          },
+          "hard_nonagri_loss": {
+            "flagged": 10,
+            "n": 46,
+            "rate": 0.2174,
+            "ci95": [
+              0.1226,
+              0.3557
+            ]
+          }
+        }
+      }
+    },
+    "brazil_matogrosso": {
+      "n": 102,
+      "counts": {
+        "agri_loss": 80,
+        "hard_nonagri_loss": 22
+      },
+      "ranking": {
+        "head_token_top9": {
+          "auroc": 0.8949,
+          "ci95": [
+            0.8011,
+            0.9653
+          ],
+          "median_agri": 0.999888,
+          "median_nonagri": 0.000685
+        },
+        "head_token_max": {
+          "auroc": 0.8977,
+          "ci95": [
+            0.7974,
+            0.9716
+          ],
+          "median_agri": 0.999957,
+          "median_nonagri": 0.00495
+        },
+        "terrafm_forest_agri_score": {
+          "auroc": 0.725,
+          "ci95": [
+            0.6017,
+            0.8364
+          ],
+          "median_agri": 0.419375,
+          "median_nonagri": 0.087067
+        },
+        "terrafm_delta_score": {
+          "auroc": 0.7318,
+          "ci95": [
+            0.6341,
+            0.8273
+          ],
+          "median_agri": 0.1874,
+          "median_nonagri": 0.015029
+        },
+        "optical_fraction": {
+          "auroc": 0.8821,
+          "ci95": [
+            0.7875,
+            0.9523
+          ],
+          "median_agri": 0.547004,
+          "median_nonagri": 0.008006
+        },
+        "optical_radar_combined": {
+          "auroc": 0.8804,
+          "ci95": [
+            0.7801,
+            0.9568
+          ],
+          "median_agri": 0.42387,
+          "median_nonagri": 0.006669
+        }
+      },
+      "fixed_rules": {
+        "terrafm_chip_rule": {
+          "agri_loss": {
+            "flagged": 19,
+            "n": 80,
+            "rate": 0.2375,
+            "ci95": [
+              0.1576,
+              0.3414
+            ]
+          },
+          "hard_nonagri_loss": {
+            "flagged": 1,
+            "n": 22,
+            "rate": 0.0455,
+            "ci95": [
+              0.0081,
+              0.218
+            ]
+          }
+        },
+        "head_transferred_9tile_threshold": {
+          "agri_loss": {
+            "flagged": 49,
+            "n": 80,
+            "rate": 0.6125,
+            "ci95": [
+              0.5029,
+              0.7118
+            ]
+          },
+          "hard_nonagri_loss": {
+            "flagged": 1,
+            "n": 22,
+            "rate": 0.0455,
+            "ci95": [
+              0.0081,
+              0.218
+            ]
+          }
+        }
+      }
+    },
+    "brazil_para": {
+      "n": 103,
+      "counts": {
+        "agri_loss": 79,
+        "hard_nonagri_loss": 24
+      },
+      "ranking": {
+        "head_token_top9": {
+          "auroc": 0.5912,
+          "ci95": [
+            0.4461,
+            0.7342
+          ],
+          "median_agri": 0.999377,
+          "median_nonagri": 0.994865
+        },
+        "head_token_max": {
+          "auroc": 0.5723,
+          "ci95": [
+            0.423,
+            0.7194
+          ],
+          "median_agri": 0.999691,
+          "median_nonagri": 0.998613
+        },
+        "terrafm_forest_agri_score": {
+          "auroc": 0.3892,
+          "ci95": [
+            0.2479,
+            0.5237
+          ],
+          "median_agri": 0.299155,
+          "median_nonagri": 0.536808
+        },
+        "terrafm_delta_score": {
+          "auroc": 0.6028,
+          "ci95": [
+            0.4694,
+            0.7279
+          ],
+          "median_agri": 0.201248,
+          "median_nonagri": 0.033024
+        },
+        "optical_fraction": {
+          "auroc": 0.6814,
+          "ci95": [
+            0.5538,
+            0.8014
+          ],
+          "median_agri": 0.502066,
+          "median_nonagri": 0.219267
+        },
+        "optical_radar_combined": {
+          "auroc": 0.6543,
+          "ci95": [
+            0.5226,
+            0.7751
+          ],
+          "median_agri": 0.421217,
+          "median_nonagri": 0.212713
+        }
+      },
+      "fixed_rules": {
+        "terrafm_chip_rule": {
+          "agri_loss": {
+            "flagged": 12,
+            "n": 79,
+            "rate": 0.1519,
+            "ci95": [
+              0.0891,
+              0.247
+            ]
+          },
+          "hard_nonagri_loss": {
+            "flagged": 4,
+            "n": 24,
+            "rate": 0.1667,
+            "ci95": [
+              0.0668,
+              0.3585
+            ]
+          }
+        },
+        "head_transferred_9tile_threshold": {
+          "agri_loss": {
+            "flagged": 32,
+            "n": 79,
+            "rate": 0.4051,
+            "ci95": [
+              0.3037,
+              0.5153
+            ]
+          },
+          "hard_nonagri_loss": {
+            "flagged": 9,
+            "n": 24,
+            "rate": 0.375,
+            "ci95": [
+              0.2116,
+              0.5729
+            ]
+          }
+        }
+      }
+    }
+  },
+  "notes": [
+    "The primary discrimination measure is threshold-free AUROC; the 9-tile head threshold was not calibrated for one chip.",
+    "Fixed-rule rates are conditional on purposively sampled transition classes, not population accuracy or precision.",
+    "Labels come from TerraClass and MapBiomas EO products and do not establish field truth or EUDR compliance.",
+    "Positive and hard-negative chips were selected from different map-class frames; regional and endpoint stratification are reported to expose this selection.",
+    "Bootstrap intervals resample chips within each class and do not account for product-label error or residual spatial clustering."
+  ]
+}

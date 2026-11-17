@@ -1,0 +1,153 @@
+{
+  "status": "passed",
+  "verified_files": 2720,
+  "maximum_score_errors": {
+    "validation": {
+      "joint_top9": 0.0,
+      "landuse_top9": 0.0,
+      "spectral_joint_top9": 0.0,
+      "change_top9": 0.0,
+      "optical_fraction": 0.0
+    },
+    "test": {
+      "joint_top9": 0.0,
+      "landuse_top9": 0.0,
+      "spectral_joint_top9": 0.0,
+      "change_top9": 0.0,
+      "optical_fraction": 0.0
+    }
+  },
+  "loss_endpoint_metrics": {
+    "n": 113,
+    "positive_n": 84,
+    "negative_n": 29,
+    "methods": {
+      "joint_top9": {
+        "auroc": 0.8994252873563218,
+        "tp": 72,
+        "fn": 12,
+        "fp": 3,
+        "tn": 26,
+        "recall": 0.8571428571428571,
+        "recall_ci95_wilson": [
+          0.7667,
+          0.9164
+        ],
+        "fpr": 0.10344827586206896,
+        "fpr_ci95_wilson": [
+          0.0358,
+          0.2639
+        ],
+        "accuracy": 0.8672566371681416,
+        "balanced_accuracy": 0.8768472906403941
+      },
+      "landuse_top9": {
+        "auroc": 0.9638752052545156,
+        "tp": 73,
+        "fn": 11,
+        "fp": 2,
+        "tn": 27,
+        "recall": 0.8690476190476191,
+        "recall_ci95_wilson": [
+          0.7805,
+          0.9253
+        ],
+        "fpr": 0.06896551724137931,
+        "fpr_ci95_wilson": [
+          0.0191,
+          0.2196
+        ],
+        "accuracy": 0.8849557522123894,
+        "balanced_accuracy": 0.9000410509031199
+      },
+      "spectral_joint_top9": {
+        "auroc": 0.8678160919540231,
+        "tp": 64,
+        "fn": 20,
+        "fp": 3,
+        "tn": 26,
+        "recall": 0.7619047619047619,
+        "recall_ci95_wilson": [
+          0.6606,
+          0.8403
+        ],
+        "fpr": 0.10344827586206896,
+        "fpr_ci95_wilson": [
+          0.0358,
+          0.2639
+        ],
+        "accuracy": 0.7964601769911505,
+        "balanced_accuracy": 0.8292282430213465
+      },
+      "change_top9": {
+        "auroc": 0.7005336617405583,
+        "tp": 29,
+        "fn": 55,
+        "fp": 2,
+        "tn": 27,
+        "recall": 0.34523809523809523,
+        "recall_ci95_wilson": [
+          0.2523,
+          0.4517
+        ],
+        "fpr": 0.06896551724137931,
+        "fpr_ci95_wilson": [
+          0.0191,
+          0.2196
+        ],
+        "accuracy": 0.49557522123893805,
+        "balanced_accuracy": 0.6381362889983581
+      },
+      "optical_fraction": {
+        "auroc": 0.7584154351395731,
+        "tp": 46,
+        "fn": 38,
+        "fp": 4,
+        "tn": 25,
+        "recall": 0.5476190476190477,
+        "recall_ci95_wilson": [
+          0.4414,
+          0.6496
+        ],
+        "fpr": 0.13793103448275862,
+        "fpr_ci95_wilson": [
+          0.055,
+          0.3056
+        ],
+        "accuracy": 0.6283185840707964,
+        "balanced_accuracy": 0.7048440065681445
+      }
+    }
+  },
+  "auroc_ci95_block_bootstrap": {
+    "joint_top9": [
+      0.8382,
+      0.9531
+    ],
+    "landuse_top9": [
+      0.9216,
+      0.9903
+    ],
+    "spectral_joint_top9": [
+      0.7946,
+      0.9309
+    ],
+    "change_top9": [
+      0.5804,
+      0.8191
+    ],
+    "optical_fraction": [
+      0.6458,
+      0.8582
+    ]
+  },
+  "joint_minus_change_auroc": {
+    "estimate": 0.19889162561576346,
+    "ci95": [
+      0.1,
+      0.3157
+    ],
+    "bootstrap_units": "10km geographic blocks",
+    "valid_draws": 2000
+  }
+}

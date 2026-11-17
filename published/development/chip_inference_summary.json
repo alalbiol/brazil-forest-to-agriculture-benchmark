@@ -1,0 +1,12 @@
+{
+  "agri_reference_sha256": "f1e1e1ddaa5f5e1698db70968f69f0ec572688c855df2b9926fb55f959987f34",
+  "nonagri_reference_sha256": "9d81db26a71dad8c620965ef1d1c2a3972895c0e2f4ac8d6b306abb379a33a1c",
+  "terrafm_checkpoint_sha256": "5a7c585e66752364360d54f21c6c4197b87cc85eec670c11650012d86c8d7bdc",
+  "spatial_head_sha256": "042cd2389526a4ee5c4afd0739fcd071b236efe066b91379874d936b7ab01b31",
+  "operating_point_sha256": "8ac21572a6925e87e658175ce32a9504c23f84682767299f3e0cf5b5f756b7e2",
+  "transferred_9tile_threshold": 0.9994885921478271,
+  "threshold_note": "Selected for a 9-tile window in prior validation; not calibrated for this single-chip challenge",
+  "requested": 205,
+  "predicted": 205,
+  "failures": []
+}

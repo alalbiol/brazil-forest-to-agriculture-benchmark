@@ -1,0 +1,29 @@
+{
+  "counts": {
+    "test/agriculture/accepted": 84,
+    "test/agriculture/uncertain": 12,
+    "test/mining/uncertain": 24,
+    "test/secondary_forest/uncertain": 16,
+    "test/secondary_forest/accepted": 10,
+    "test/stable_forest/accepted": 35,
+    "test/stable_forest/uncertain": 5,
+    "test/mining/accepted": 19,
+    "train/agriculture/accepted": 241,
+    "train/agriculture/uncertain": 47,
+    "train/mining/uncertain": 70,
+    "train/mining/accepted": 62,
+    "train/secondary_forest/uncertain": 76,
+    "train/secondary_forest/accepted": 41,
+    "train/stable_forest/uncertain": 16,
+    "train/stable_forest/accepted": 104,
+    "validation/agriculture/uncertain": 24,
+    "validation/agriculture/accepted": 72,
+    "validation/secondary_forest/uncertain": 25,
+    "validation/secondary_forest/accepted": 14,
+    "validation/stable_forest/uncertain": 8,
+    "validation/stable_forest/accepted": 32,
+    "validation/mining/uncertain": 22,
+    "validation/mining/accepted": 18
+  },
+  "reference_sha256": "6dd3342ea52755891a7c32190b266648ff834bc72337a132d64f00db2495d602"
+}

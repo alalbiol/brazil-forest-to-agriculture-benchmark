@@ -1,0 +1,2943 @@
+{
+  "device": "cuda",
+  "elapsed_s": 28.28689282387495,
+  "status": [
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__1037810",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__1039350",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__1044096",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__1054990",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__558483",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__559753",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__560169",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__560473",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__573225",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__575986",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__578784",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__579347",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__579586",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__580134",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__590530",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__590875",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__592308",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__598526",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__602612",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__604520",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__688356",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__700236",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__717934",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__718355",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__721567",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__724014",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__726634",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__753504",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__875746",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__881415",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__885154",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__927629",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__929061",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__929463",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__944182",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__944353",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__945833",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__950434",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_secondary_forest__742199",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-50.59301303_-9.98654771",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-52.91700797_-9.91448586",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-53.23707022_-13.05086687",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-53.85291142_-9.69668485",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-54.11604784_-11.71517374",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-55.04106649_-9.95139439",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-55.35890849_-11.17738953",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-55.61690648_-10.90298122",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-57.86734965_-9.20644451",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-58.07411914_-8.40763908",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-58.40071524_-8.83727995",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-58.58835889_-10.95578867",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-58.91548274_-9.82234594",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-59.10200028_-10.8428124",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-59.46564612_-15.91663849",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-59.93336284_-13.11016726",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-61.28480628_-10.19028236",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1038454",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1041035",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1042529",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1043564",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1045019",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1051547",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1066676",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1071708",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1082322",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__561423",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__597880",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__601654",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__604222",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__606576",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__607177",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__607293",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__607353",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__609461",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__674746",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__682460",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__687720",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__690161",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__690365",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__690465",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__691559",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__692401",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__692459",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__692760",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__695091",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__710000",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__712588",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__713253",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__713370",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__713783",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__717119",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__717120",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__726943",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__727128",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__728435",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__731742",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__752797",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__873457",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__928411",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__929154",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__939336",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__940953",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1041481",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1041613",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1051336",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__573561",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__580981",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__581023",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__591342",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__592283",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__592951",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__593637",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__593809",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__605744",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__682319",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__876599",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__878228",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__887324",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__887370",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__927507",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__940143",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__1036719",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__1037567",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__1044130",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__618501",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__675015",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__676611",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__715289",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__715899",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__717607",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-51.23884432_-5.94911719",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-51.746729_-5.49214178",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-51.75282314_-4.44839102",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-51.99553425_-1.7266422",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-52.4670677_-7.18947565",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-52.57264572_-8.85986421",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-52.58673583_-0.67739441",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-52.5922718_-4.16485217",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-52.69934041_-7.32073995",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-53.91994264_-0.34350639",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-54.9555704_-4.90624772",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-55.43807642_2.21298791",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-55.48687504_-5.55682585",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-55.79410418_-4.15001139",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-56.46537921_-0.10321483",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-56.66393477_-7.42461288",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-57.32905979_-1.69993272",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-58.84351782_-0.32316707",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__1037999",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__1038025",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__1041122",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__1041839",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__1042976",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__1043297",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__1043426",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__1064823",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__1064861",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__1072837",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__1084057",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__558662",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__559945",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__560176",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__561064",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__561692",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__562020",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__563116",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__573228",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__573460",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__574179",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__575955",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__577357",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__577972",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__578463",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__580471",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__581444",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__590178",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__591331",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__591816",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__592032",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__592135",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__592430",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__592929",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__593749",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__593934",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__597267",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__597277",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__597999",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__602477",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__604461",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__604887",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__606822",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__607078",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__607163",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__616030",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__616106",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__617036",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__617161",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__617485",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__670939",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__674466",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__680428",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__683232",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__684353",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__686892",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__688998",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__691979",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__692064",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__694856",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__697881",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__698631",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__698695",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__711799",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__714776",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__717474",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__723768",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__724612",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__727870",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__728214",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__730232",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__730675",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__730813",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__732450",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__742163",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__746423",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__749469",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__750525",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__752912",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__754086",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__754331",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__797042",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__797589",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__798238",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__798860",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__873485",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__873535",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__874112",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__876389",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__876807",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__877783",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__877874",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__877973",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__877977",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__878139",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__878374",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__881402",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__881552",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__881643",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__881679",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__883868",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__883932",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__885562",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__885634",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__886069",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__886803",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__886947",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__887174",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__887284",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__927288",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__927502",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__928934",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__929562",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__941422",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__942835",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__943328",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__946577",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__950486",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__951093",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__951136",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_mining__731257",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_mining__885207",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_mining__927776",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_mining__929190",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_mining__948498",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_secondary_forest__559258",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_secondary_forest__572854",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_secondary_forest__579517",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_secondary_forest__579757",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-52.59158565_-12.28728935",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-52.68487938_-10.63602145",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-53.23754299_-10.19813193",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-53.38006146_-10.36323981",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-53.78984445_-11.85686965",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-53.89886635_-10.07836953",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-54.0450488_-11.29797413",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-54.34283451_-12.57268015",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-54.35594452_-13.1287123",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-55.15731905_-11.17598407",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-55.37634958_-11.00213293",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-55.64797338_-10.15697253",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-56.05780024_-11.13010448",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-56.0692664_-11.10976597",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-56.34763734_-13.09167246",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-56.63496304_-11.15111982",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-56.88452224_-9.80699049",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-56.88998101_-10.70433034",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-56.92468431_-11.97200938",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-57.0153704_-12.41969391",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-57.03599815_-12.44281892",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-57.08333727_-10.70310436",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-57.09853033_-14.97255597",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-57.12983535_-10.19208112",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-57.41936616_-12.66581767",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-57.45582421_-9.09353795",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-57.46464173_-11.05154614",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-57.48006744_-12.04785423",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-57.61440304_-13.0673201",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-57.84333741_-8.61323234",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-58.31704701_-8.93289898",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-58.61683287_-10.24754058",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-58.8532917_-9.03199277",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-59.1857989_-14.91385499",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-59.25529535_-10.66419308",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-59.60687456_-9.56900719",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-59.69834443_-8.93910008",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-59.72295055_-10.07928699",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-59.75297822_-10.88805551",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-59.79123887_-8.90082433",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-59.99811607_-13.77896379",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-60.04135823_-11.68573104",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-60.20941191_-10.97844687",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-60.60411819_-10.74474257",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-60.95561713_-9.93664295",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-61.1664516_-9.88523295",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-61.56168474_-10.22244296",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1036745",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1036859",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1037469",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1038329",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1038386",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1041363",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1041919",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1044001",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1045364",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1046186",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1047000",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1047702",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1063574",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1063919",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1070988",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1073109",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1083274",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1149432",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1154039",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1162755",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1163522",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__559359",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__560031",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__560719",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__576624",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__577520",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__578170",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__593536",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__597766",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__603814",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__603967",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__604140",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__605569",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__605701",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__605814",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__608088",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__609725",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__610219",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__616231",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__617230",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__671004",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__671266",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__676961",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__679063",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__679349",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__682956",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__683833",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__687486",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__688278",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__688793",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__689005",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__690312",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__691399",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__692471",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__693831",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__694499",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__695229",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__695848",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__698999",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__700090",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__706072",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__707432",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__710220",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__710229",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__710853",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__711319",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__711523",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__711862",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__716057",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__717329",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__718496",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__718550",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__718661",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__718692",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__718814",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__721267",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__721664",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__722370",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__723140",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__723543",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__723881",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__724999",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__727576",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__728151",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__728799",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__729017",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__730412",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__730556",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__730678",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__731018",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__731236",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__731325",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__731387",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__731735",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__733834",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__742307",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__747763",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__751978",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__752516",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__752823",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__797210",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__798620",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__798734",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__800518",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__800552",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__800813",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__873221",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__874341",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__876086",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__927729",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__929070",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__939088",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__939654",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__941830",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__943012",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__943553",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__944988",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__945663",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__947682",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__949621",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__950775",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1037784",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1038730",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1039255",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1039431",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1039584",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1040255",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1041695",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1042514",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1043143",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1044199",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1044453",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1048471",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1054222",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1066866",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__560141",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__561860",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__562647",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__573548",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__579959",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__580161",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__580473",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__580516",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__580827",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__581462",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__590945",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__592654",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__592982",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__593473",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__593541",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__597629",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__601562",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__601926",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__615989",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__616936",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__617767",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__691948",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__692746",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__695833",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__742187",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__742308",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__747080",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__749169",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__874401",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__876588",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__881411",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__884928",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__885296",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__885360",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__885447",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__886972",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__929253",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__929499",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__929559",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__943105",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__943186",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__945856",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__948564",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__1037527",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__1038420",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__1038555",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__1040576",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__1041985",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__1043271",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__1044006",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__1044178",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__1044234",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__1044602",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__1047196",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__1153324",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__577100",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__579431",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__581245",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__593129",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__593265",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__600817",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__601843",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__603155",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__678609",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__690867",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__692255",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__719394",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__719864",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__721298",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__722856",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__741708",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__798630",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__883659",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__940606",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__940608",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__942144",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__947194",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__949501",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__949640",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__950122",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-48.01366289_-3.56890976",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-48.01559508_-3.54334127",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-48.11332636_-2.69190614",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-48.51026347_-1.88380489",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-48.85979509_-1.67171371",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-50.55762326_-1.45108953",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-50.88838405_-5.84896249",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-51.02504666_-2.10348548",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-51.05024774_-1.09341345",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-51.05250833_-4.74452665",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-51.52927246_-2.4856232",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-52.16752796_-5.6198372",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-52.52905735_-4.59474823",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-52.61931423_-9.43152085",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-52.72536907_-8.51790659",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-52.78566782_-7.3725336",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-52.78715256_-9.18790609",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-52.83708801_-2.39311054",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-52.84592767_-2.38464726",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-52.9225877_-8.07722599",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-53.010613_-4.3679359",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-53.05903722_-7.15966612",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-53.10962372_-6.39282476",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-53.26486218_-8.77042813",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-53.42344366_0.77204941",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-53.46781333_-7.31838141",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-53.64692851_-4.07648669",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-53.73311078_-0.44366931",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-53.93649511_-7.65160461",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-54.38627258_-3.46453539",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-54.70303556_-4.96115239",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-54.84466677_-4.7020558",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-54.94950471_-8.16774205",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-55.11932201_-2.3041194",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-55.46207095_1.21785242",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-55.61337374_0.17122701",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-55.74746008_-9.25554465",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-55.84120971_-5.35636329",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-55.88172819_-7.77339283",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-55.91009198_-8.99117117",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-56.17184506_0.7066183",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-56.18153381_-0.28950336",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-56.50167811_-0.67099379",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-56.59164561_1.34646667",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-56.80645_-7.57654156",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-56.97917341_-5.5418949",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-57.00367583_-1.31263037",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-57.06971687_-8.9450059",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-57.13964248_-1.02402468",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-57.30787194_-1.41064195",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-57.47526971_-1.5997903",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-57.52669654_-1.2386749",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-57.56093881_-1.23283188",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-58.09527722_-6.67334711",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-58.1078779_0.35701808",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-58.1461298_0.45359855",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-58.18142979_0.92776855",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__1050813",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__1052944",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__1082034",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__1162403",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__558361",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__560243",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__563057",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__563121",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__575917",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__580135",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__580752",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__592281",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__592954",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__608423",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__615983",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__618551",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__683188",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__691886",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__695121",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__706612",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__725542",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__730312",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__754281",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__874389",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__878256",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__884193",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__885713",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__887144",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__887363",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__928335",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__929541",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_agriculture__948068",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_secondary_forest__591157",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_secondary_forest__731613",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_secondary_forest__928715",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-52.83672777_-13.37513571",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-53.44363278_-9.85691116",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-53.59619011_-10.35196091",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-55.52704061_-12.48381245",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-56.43712182_-10.93229709",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-58.48725611_-9.0502752",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-58.65008717_-9.45760303",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-59.40222393_-10.80029797",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-59.4874366_-11.48366895",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-59.65900433_-10.68626173",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-59.95276338_-10.87744086",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-59.99290505_-14.84801881",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-60.0932445_-11.83289145",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_matogrosso__last_stable_forest__-60.14104142_-13.69486118",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1039212",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1041586",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1050906",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1052391",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__1052509",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__558673",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__562637",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__581234",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__598023",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__600362",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__603704",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__606199",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__608438",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__616514",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__678983",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__683734",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__686983",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__688722",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__696258",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__697916",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__698956",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__700500",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__709771",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__710203",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__710714",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__711850",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__712011",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__714376",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__715182",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__716764",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__729544",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__729915",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__730254",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__731481",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__876536",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__939828",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__942552",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__942707",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__944584",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_agriculture__950160",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1039434",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1039579",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1039928",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1041888",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1042730",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1042801",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1043966",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__1063593",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__581324",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__591261",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__592059",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__604227",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__617113",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__688460",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__698022",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__878247",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__929045",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_mining__942959",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__1037296",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__1037649",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__1044603",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__1046639",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__559329",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__562668",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__562878",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__563055",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__593312",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__692643",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_secondary_forest__713643",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-48.68596212_-2.27872065",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-50.49604115_0.27188525",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-50.98063187_-6.15595172",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-51.00672407_-4.50675034",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-51.27249564_-0.80630147",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-52.49847698_-5.52497599",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-54.07390498_0.78182824",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-54.22056892_-7.1098082",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-54.52715161_-8.69786509",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-55.20536524_-3.66799782",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-55.55057568_-2.92894512",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-55.75807978_2.23386496",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-55.97666104_-8.33418254",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-56.33413157_-8.58054608",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-57.05857507_-1.56304798",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-57.40486739_-8.22975153",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-57.49451882_-4.95407596",
+      "status": "ok"
+    },
+    {
+      "window_id": "brazil_para__last_stable_forest__-58.07002788_0.50360602",
+      "status": "ok"
+    }
+  ],
+  "backbone_sha256": "5a7c585e66752364360d54f21c6c4197b87cc85eec670c11650012d86c8d7bdc",
+  "reference_sha256": "6dd3342ea52755891a7c32190b266648ff834bc72337a132d64f00db2495d602",
+  "labels": [
+    "primary_forest",
+    "secondary_forest",
+    "agriculture",
+    "mining"
+  ],
+  "token_purity_min": 0.8
+}

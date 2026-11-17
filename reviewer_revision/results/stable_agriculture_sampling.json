@@ -1,0 +1,28 @@
+{
+  "seed": 20261015,
+  "target_per_state": 50,
+  "accepted": 100,
+  "counts": {
+    "brazil_para/point_not_stable_agriculture": 2028,
+    "brazil_para/within_12km_prior": 107,
+    "brazil_para/area_purity": 41,
+    "brazil_para/random_draws": 2226,
+    "brazil_matogrosso/within_12km_prior": 56,
+    "brazil_matogrosso/point_not_stable_agriculture": 1055,
+    "brazil_matogrosso/area_purity": 19,
+    "brazil_matogrosso/random_draws": 1180
+  },
+  "selection": "TerraClass geometry, MapBiomas alerts, and distance only; no model scores",
+  "requirements": {
+    "agriculture_fraction_each_date": 0.9,
+    "no_alert_years": [
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "minimum_prior_distance_m": 12000,
+    "minimum_extension_distance_m": 2000,
+    "window_metres": 440
+  }
+}

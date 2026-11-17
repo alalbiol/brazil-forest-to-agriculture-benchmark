@@ -1,0 +1,5 @@
+endpoint,both_correct,terra_only,spectral_only,both_wrong
+agriculture,64,8,0,12
+secondary_forest,8,1,0,1
+mining,17,0,1,1
+total,89,9,1,14

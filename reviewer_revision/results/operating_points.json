@@ -1,0 +1,70 @@
+{
+  "seed": 20261015,
+  "selection": "Maximum validation recall under empirical nonagricultural-loss FPR <= 10%",
+  "protocol_sha256": "6b93e8879034dc8cb6db1e353b30afaa25cd8a81dcff3c23143748d2f206343f",
+  "thresholds": {
+    "joint_original": {
+      "threshold": 0.25337934494018555,
+      "validation_recall": 0.8611111111111112,
+      "validation_fpr": 0.0625,
+      "positive_n": 72,
+      "negative_n": 32
+    },
+    "endpoint_terrafm": {
+      "threshold": 0.7643408179283142,
+      "validation_recall": 0.9305555555555556,
+      "validation_fpr": 0.09375,
+      "positive_n": 72,
+      "negative_n": 32
+    },
+    "postclassification": {
+      "threshold": 0.5608620047569275,
+      "validation_recall": 0.8611111111111112,
+      "validation_fpr": 0.09375,
+      "positive_n": 72,
+      "negative_n": 32
+    },
+    "bitemporal_terrafm": {
+      "threshold": 0.9048773262718753,
+      "validation_recall": 0.9583333333333334,
+      "validation_fpr": 0.09375,
+      "positive_n": 72,
+      "negative_n": 32
+    },
+    "spectral_linear_endpoint": {
+      "threshold": 0.9194192886352539,
+      "validation_recall": 0.6388888888888888,
+      "validation_fpr": 0.09375,
+      "positive_n": 72,
+      "negative_n": 32
+    },
+    "spectral_linear_joint": {
+      "threshold": 0.707503616809845,
+      "validation_recall": 0.75,
+      "validation_fpr": 0.09375,
+      "positive_n": 72,
+      "negative_n": 32
+    },
+    "spectral_forest_bitemporal": {
+      "threshold": 0.9016566422956741,
+      "validation_recall": 0.8194444444444444,
+      "validation_fpr": 0.09375,
+      "positive_n": 72,
+      "negative_n": 32
+    },
+    "change_original": {
+      "threshold": 0.999894380569458,
+      "validation_recall": 0.3888888888888889,
+      "validation_fpr": 0.09375,
+      "positive_n": 72,
+      "negative_n": 32
+    },
+    "optical_index": {
+      "threshold": 0.4256198347107438,
+      "validation_recall": 0.6388888888888888,
+      "validation_fpr": 0.09375,
+      "positive_n": 72,
+      "negative_n": 32
+    }
+  }
+}

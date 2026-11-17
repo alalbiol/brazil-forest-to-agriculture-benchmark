@@ -1,0 +1,70 @@
+{
+  "date_agreement": {
+    "2020": {
+      "correct": 22112,
+      "valid": 25169,
+      "forest_correct": 21438,
+      "forest_valid": 23627,
+      "accuracy": 0.878541062418054,
+      "forest_recall": 0.9073517585812841
+    },
+    "2024": {
+      "correct": 21008,
+      "valid": 24544,
+      "forest_correct": 10624,
+      "forest_valid": 12030,
+      "accuracy": 0.8559322033898306,
+      "forest_recall": 0.8831255195344971
+    }
+  },
+  "topk": {
+    "1": {
+      "threshold": 0.6206791996955872,
+      "loss_auroc": 0.9618226600985221,
+      "conversion_vs_established_auroc": 0.9579761904761904,
+      "conversion_detected": 69,
+      "conversion_n": 84,
+      "nonagricultural_loss_flagged": 1,
+      "nonagricultural_loss_n": 29,
+      "established_flagged": 7,
+      "established_n": 100
+    },
+    "5": {
+      "threshold": 0.5915055274963379,
+      "loss_auroc": 0.9626436781609196,
+      "conversion_vs_established_auroc": 0.9696428571428571,
+      "conversion_detected": 68,
+      "conversion_n": 84,
+      "nonagricultural_loss_flagged": 1,
+      "nonagricultural_loss_n": 29,
+      "established_flagged": 5,
+      "established_n": 100
+    },
+    "9": {
+      "threshold": 0.5608620047569275,
+      "loss_auroc": 0.963464696223317,
+      "conversion_vs_established_auroc": 0.9728571428571429,
+      "conversion_detected": 68,
+      "conversion_n": 84,
+      "nonagricultural_loss_flagged": 1,
+      "nonagricultural_loss_n": 29,
+      "established_flagged": 3,
+      "established_n": 100
+    },
+    "20": {
+      "threshold": 0.5195167660713196,
+      "loss_auroc": 0.9646962233169131,
+      "conversion_vs_established_auroc": 0.9783333333333334,
+      "conversion_detected": 67,
+      "conversion_n": 84,
+      "nonagricultural_loss_flagged": 1,
+      "nonagricultural_loss_n": 29,
+      "established_flagged": 3,
+      "established_n": 100
+    }
+  },
+  "conversion_vs_established_auroc": {
+    "postclassification": 0.9728571428571429,
+    "endpoint_terrafm": 0.36833333333333335
+  }
+}

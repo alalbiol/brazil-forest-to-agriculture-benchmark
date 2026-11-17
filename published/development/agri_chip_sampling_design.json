@@ -1,0 +1,22 @@
+{
+  "seed": 20261002,
+  "window_metres": 440,
+  "point_candidate_frame": {
+    "brazil_matogrosso": 2110,
+    "brazil_para": 7201
+  },
+  "target_per_region": 100,
+  "sample_counts": {
+    "brazil_matogrosso": 100,
+    "brazil_para": 100
+  },
+  "rejected_before_target": {
+    "hard_negative_candidate_overlap": 1,
+    "another_positive_chip": 1,
+    "original_benchmark_overlap": 3,
+    "old_pilot_or_test": 5
+  },
+  "original_benchmark_exclusion": "Exact axis-aligned 440m/1320m rectangle overlap",
+  "sample_sha256": "5b1e082909a74d9be8324da4128182986be69fbb4a57bf82566b0bf97f63c4cc",
+  "selection": "Dated alert and TerraClass point crosswalk only, before exact area check or model scores"
+}

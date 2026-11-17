@@ -1,0 +1,17 @@
+{
+  "regions": {
+    "brazil_matogrosso": {
+      "alerts": 5568,
+      "target_point_alerts": 2368,
+      "primary_to_target_point_candidates": 2110
+    },
+    "brazil_para": {
+      "alerts": 15860,
+      "target_point_alerts": 8328,
+      "primary_to_target_point_candidates": 7201
+    }
+  },
+  "candidates": 9311,
+  "target": "agri",
+  "method": "Representative point of dated alert; exact polygon area check still required"
+}
